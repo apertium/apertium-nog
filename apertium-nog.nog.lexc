@@ -70,6 +70,11 @@ LEXICON Root
 
 Nouns ; 
 Postpositions ; 
+Pronouns ; 
+Adverbs ; 
+Adjectives ; 
+ProperNouns ; 
+Punctuation ; 
 
 LEXICON CLIT 
 
@@ -107,6 +112,9 @@ LEXICON N-INFL-COMMON
 
 POSS ;
 CASES-ETC ;
+
+LEXICON NP-COMMON
+N-INFL-COMMON ;
 
 LEXICON SUBST
 
@@ -228,7 +236,7 @@ LEXICON Nouns
 уьй:уьй N1 ; ! "дом"
 юлдыз:юлдыз N1 ; ! "звезд"
 ямгыр:ямгыр N1 ; ! "дожд"
-япырак:япырак ; ! "лист"
+япырак:япырак N1 ; ! "лист"
 
 LEXICON ProperNouns
 
