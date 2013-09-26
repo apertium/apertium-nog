@@ -1,0 +1,47 @@
+Alphabet
+
+ А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ъ Ы Ь Э Ю Я
+ а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ъ ы ь э ю я
+
+ %{A%}:а  %{A%}:e
+ %{I%}:и  %{I%}:ы
+ %{L%}:л  %{L%}:н
+ %{D²%}:д %{D²%}:т
+ %{D³%}:д %{D³%}:т %{D³%}:н
+ %{G%}:к  %{G%}:г
+ %{М%}:б  %{M%}:п %{M%}:м
+ %{s%}:с 
+ %{n%}:н
+
+ % 
+ 
+ %>:0  ; 
+
+Sets 
+
+Vow = а э и о у А Э И О У  
+      я е ы ё у Я Е Ы Ё Ю  ; 
+
+Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш 
+      б в г д ж з й к л м н п р с т ф х ц ч ш ; 
+
+Abstract = %{s%} ;
+AbstractCns = %{s%} ;
+
+
+Rules 
+
+"Vowel harmony for archiphoneme {A}"
+%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] _ ;
+        where LastVowel in (  а э и о у я е ы ё ю )
+                     Vy in (  а е е а а а е а а а ) matched ; 
+
+"Vowel harmony for archiphoneme {I}"
+%{I%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] _ ;
+        where LastVowel in (  а э и о у я е ы ё ю )
+                     Vy in (  ы и и ы ы ы и ы ы ы ) matched ; 
+
+
+"Deletion of {S} after a consonant"
+%{s%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
+
