@@ -3,6 +3,10 @@ Multichar_Symbols
 %<n%>                     ! 
 %<post%>                  ! 
 
+%<attr%>                  ! 
+%<subst%>                 ! 
+%<advl%>                  ! 
+
 %<pl%>                    ! 
 
 %<px1sg%>                 ! 
@@ -19,6 +23,19 @@ Multichar_Symbols
 %<loc%>                   ! 
 %<abl%>                   ! 
 
+%<sim%>                   ! 
+
+! Punctuation
+%<sent%>                  ! Sentence marker
+%<guio%>                  ! Hyphen
+%<cm%>                    ! Comma
+%<apos%>                  ! Apostrophe
+%<rquot%>                 ! Quote marker (right hand side)
+%<lquot%>                 ! Quote marker (left hand side)
+%<rpar%>                  ! Parenthetical marker (right hand side)
+%<lpar%>                  ! Parenthetical marker (left hand side)
+
+! Archiphonemes and escaped symbols
 %{A%} 
 %{I%}
 %{G%}
@@ -43,7 +60,7 @@ LEXICON CLIT
 
 # ;
 
-LEXICON CASE 
+LEXICON CASES 
 
 %<nom%>: CLIT ; 
 %<gen%>:%>%{D³%}%{I%}нъ CLIT ; 
@@ -52,24 +69,40 @@ LEXICON CASE
 %<loc%>:%>%{D²%}%{A%} CLIT ; 
 %<abl%>:%>%{D³%}%{A%}н CLIT ; 
 
+LEXICON GENPOSS-ETC 
+
+%<sim%>:%>%{D%}%{A%}й CLIT ;
+
+LEXICON CASES-ETC
+
+CASES ;
+GENPOSS-ETC ;
+
 LEXICON POSS
 
-CASE ; 
-%<px1sg%>:%>%{I%}м CASE ; 
-%<px2sg%>:%>%{I%}нъ CASE ; 
-%<px3sp%>:%>%{s%}%{I%}%{n%} CASE ; 
-%<px1pl%>:%>м%{I%}з CASE ; 
-%<px2pl%>:%>%{I%}нъ%{I%}з CASE ; 
-%<px3pl%>:%>%{L%}%{A%}р%{I%} CASE ; 
+CASES-ETC ; 
+%<px1sg%>:%>%{I%}м CASES-ETC ; 
+%<px2sg%>:%>%{I%}нъ CASES-ETC ; 
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ; 
+%<px1pl%>:%>м%{I%}з CASES-ETC ; 
+%<px2pl%>:%>%{I%}нъ%{I%}з CASES-ETC ; 
+%<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-ETC ; 
 
-LEXICON NBR 
+LEXICON N-INFL-COMMON
 
-POSS ; 
-%<pl%>:%>%{L%}%{A%}р POSS ; 
+POSS ;
+CASES-ETC ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
 
 LEXICON N1 
 
-%<n%>: NBR ;
+%<n%>%<attr%>: # ;
+%<n%>: SUBST ;
+
 
 LEXICON POST 
 
@@ -114,3 +147,31 @@ LEXICON Nouns
 ат:ат N1 ; ! ""
 куьн:куьн N1 ; ! ""
 ата:ата N1 ; ! "отец"
+
+LEXICON Punctuation
+
+%.%<sent%>:%. # ;
+%.%.%<sent%>:%.%. # ;
+%.%.%.%<sent%>:%.%.%. # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
+
+
+
