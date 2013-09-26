@@ -173,6 +173,12 @@ LEXICON A1
 
 %<adj%>: # ; 
 %<adj%>%<subst%>: SUBST ;
+! TODO: Comparison
+
+LEXICON A3
+
+%<adj%>: # ; 
+%<adj%>%<subst%>: SUBST ;
 
 LEXICON V-PERS-S1 
 
@@ -512,6 +518,8 @@ LEXICON ProperNouns
 
 
 LEXICON Adjectives
+
+йок:йок A3 ; ! ""
 
 кызыл:кызыл A1 ; ! "красный"
 уьйкен:уьйкен A1 ; ! "большой"
