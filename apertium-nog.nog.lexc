@@ -5,6 +5,7 @@ Multichar_Symbols
 %<np%>                    ! 
 %<num%>                   ! 
 %<adj%>                   ! 
+%<det%>                   ! 
 %<prn%>                   ! 
 %<adv%>                   ! 
 %<post%>                  ! 
@@ -19,6 +20,8 @@ Multichar_Symbols
 %<ant%>                   ! 
 %<pers%>                  ! 
 
+%<ind%>                   ! 
+%<dem%>                   ! 
 %<ord%>                   ! 
 
 %<m%>                     ! 
@@ -89,6 +92,7 @@ LEXICON Root
 Nouns ; 
 Postpositions ; 
 Numerals ; 
+Determiners ; 
 Pronouns ; 
 Conjunctions ; 
 Adverbs ; 
@@ -236,11 +240,19 @@ LEXICON NUM-COMMON
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ;
 
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
+
 LEXICON NUM
 
 NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нш%{I%} # ;             ! FIXME: base form, <det> reading
 %<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
+
+LEXICON DET-DEM
+
+%<det%>%<dem%>: # ;
 
 LEXICON CC
 
@@ -296,6 +308,12 @@ LEXICON Pronouns
 биз:биз PRON-BIZ ; ! "мы"
 сиз:сиз PRON-SIZ ; ! "вы"
 
+LEXICON Determiners
+
+бу:бу DET-DEM ; ! ""
+ол:ол DET-DEM ; ! ""
+сол:сол DET-DEM ; ! ""
+
 LEXICON Numerals
 
 бир:бир NUM ; ! "один"
@@ -321,6 +339,29 @@ LEXICON Numerals
 юз:юз NUM ; ! ""
 
 мынъ:мынъ NUM ; ! "тысыч"
+
+I NUM-ROMAN ; ! ""
+II NUM-ROMAN ; ! ""
+III NUM-ROMAN ; ! ""
+IV NUM-ROMAN ; ! ""
+V NUM-ROMAN ; ! ""
+VI NUM-ROMAN ; ! ""
+VII NUM-ROMAN ; ! ""
+VIII NUM-ROMAN ; ! ""
+IX NUM-ROMAN ; ! ""
+X NUM-ROMAN ; ! ""
+XI NUM-ROMAN ; ! ""
+XII NUM-ROMAN ; ! ""
+XIII NUM-ROMAN ; ! ""
+XIV NUM-ROMAN ; ! ""
+XV NUM-ROMAN ; ! ""
+XVI NUM-ROMAN ; ! ""
+XVII NUM-ROMAN ; ! ""
+XVIII NUM-ROMAN ; ! ""
+XIX NUM-ROMAN ; ! ""
+XX NUM-ROMAN ; ! ""
+XXI NUM-ROMAN ; ! ""
+
 
 LEXICON Nouns
 
