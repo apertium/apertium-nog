@@ -62,6 +62,8 @@ Multichar_Symbols
 %<past%>                  ! 
 %<ifi%>                   ! 
 
+%<ger%>                   ! 
+
 %<prc_perf%>              ! 
 %<prc_cond%>              ! 
 %<gna_perf%>              ! 
@@ -81,6 +83,7 @@ Multichar_Symbols
 %{A%} 
 %{I%}
 %{G%}
+%{U%}
 %{D²%}
 %{D³%}
 %{M%}
@@ -186,13 +189,28 @@ LEXICON A3
 %<adj%>: # ; 
 %<adj%>%<subst%>: SUBST ;
 
+LEXICON V-PERS-S1-NO3PERSON
+
+%<p1%>%<sg%>:%>%{M%}%{A%}н CLIT ;
+%<p2%>%<sg%>:%>с%{I%}нъ CLIT ;
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}з CLIT ;
+
 LEXICON V-PERS-S1 
 
+V-PERS-S1-NO3PERSON ;
 %<p3%>%<sg%>: CLIT  ; 
+%<p3%>%<pl%>: CLIT ;
 
 LEXICON V-PERS-S2
 
-%<p3%>%<sg%>: CLIT  ; 
+%<p1%>%<sg%>:%>м CLIT ;
+%<p2%>%<sg%>:%>нъ CLIT ;
+%<p3%>%<sg%>: CLIT ;
+%<p1%>%<pl%>:%>%{K%} CLIT ;
+%<p2%>%<pl%>:%>%{I%}нъ%{I%}з CLIT ;
+%<p3%>%<pl%>: CLIT ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON V-FIN-REG-NEG
 
@@ -200,6 +218,8 @@ LEXICON V-FIN-REG-NEG
 %<ifi%>:%>%{D²%}%{I%} V-PERS-S2 ;
 
 LEXICON V-NONFIN
+
+%<ger%>:%>%{U%}в CLIT ; 
 
 %<prc_perf%>:%>%{I%}п CLIT ; 
 %<prc_cond%>:%>с%{A%} CLIT ; 
@@ -545,6 +565,7 @@ LEXICON Adverbs
 LEXICON Verbs 
 
 бол:бол V-IV ; ! "быть"
+кел:кел V-IV ; ! ""
 де:де V-TV ; ! ""
 
 
