@@ -57,7 +57,9 @@ Multichar_Symbols
 %<ifi%>                   ! 
 
 %<prc_perf%>              ! 
+%<prc_cond%>              ! 
 %<gna_perf%>              ! 
+%<gna_cond%>              ! 
 
 ! Punctuation
 %<sent%>                  ! Sentence marker
@@ -188,8 +190,10 @@ LEXICON V-FIN-REG-NEG
 LEXICON V-NONFIN
 
 %<prc_perf%>:%>%{I%}п CLIT ; 
+%<prc_cond%>:%>с%{A%} CLIT ; 
 
 %<gna_perf%>:%>%{I%}п CLIT ;
+%<gna_cond%>:%>с%{A%} CLIT ;
 
 LEXICON V-COMMON
 
@@ -234,6 +238,11 @@ LEXICON PRON-BIZ
 LEXICON PRON-SIZ 
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+
+LEXICON PRON-OLAR 
+
+%<prn%>%<pers%>%<p3%>%<pl%>: CASES ; 
+
 
 LEXICON NUM-COMMON
 
@@ -307,6 +316,7 @@ LEXICON Pronouns
 ол:о PRON-OL ;  ! "он; она; оно"
 биз:биз PRON-BIZ ; ! "мы"
 сиз:сиз PRON-SIZ ; ! "вы"
+олар:олар PRON-OLAR ; ! "они"
 
 LEXICON Determiners
 
@@ -470,14 +480,20 @@ LEXICON Nouns
 управление:управление N1 ; ! ""
 объект:объект N1 ; ! ""
 приоритет:приоритет N1 ; ! ""
+политика:политика N1 ; ! ""
+автор:автор N1 ; ! ""
 
 февраль:февраль N1 ; ! ""
 
 LEXICON ProperNouns
 
 Дагестан:Дагестан NP-TOP ; ! ""
+Америка:Америка NP-TOP ; ! ""
+Нью%-Джерси:Нью%-Джерси NP-TOP ; ! ""
+Санкт%-Петербург:Санкт%-Петербург NP-TOP ; ! ""
 
 Азамат:Азамат NP-ANT-M ; ! ""
+Андрей:Андрей NP-ANT-M ; ! ""
 Александр:Александр NP-ANT-M ; ! ""
 Сергей:Сергей NP-ANT-M ; ! ""
 Владимир:Владимир NP-ANT-M; ! ""
@@ -496,10 +512,13 @@ LEXICON ProperNouns
 LEXICON Adjectives
 
 кызыл:кызыл A1 ; ! "красный"
+уьйкен:уьйкен A1 ; ! "большой"
 
 LEXICON Adverbs 
 
 бек:бек ADV ; ! "очень"
+енъ:енъ ADV ; ! ""
+
 
 LEXICON Verbs 
 
