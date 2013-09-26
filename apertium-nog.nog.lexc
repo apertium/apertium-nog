@@ -1,10 +1,23 @@
 Multichar_Symbols
 
 %<n%>                     ! 
+%<post%>                  ! 
 
-%<pl%>                   ! 
+%<pl%>                    ! 
+
+%<px1sg%>                 ! 
+%<px2sg%>                 ! 
+%<px3sp%>                 ! 
+%<px1pl%>                 ! 
+%<px2pl%>                 ! 
+%<px3pl%>                 ! 
 
 %<nom%>                   ! 
+%<gen%>                   ! 
+%<dat%>                   ! 
+%<acc%>                   ! 
+%<loc%>                   ! 
+%<abl%>                   ! 
 
 %{A%} 
 %{I%}
@@ -19,9 +32,12 @@ Multichar_Symbols
 %> 
 % 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Root
 
 Nouns ; 
+Postpositions ; 
 
 LEXICON CLIT 
 
@@ -54,6 +70,16 @@ POSS ;
 LEXICON N1 
 
 %<n%>: NBR ;
+
+LEXICON POST 
+
+%<post%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions
+
+уьшин:уьшин POST ; ! "because of"
 
 LEXICON Nouns
 
