@@ -1,3 +1,9 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!    M O R P H O L O G I C A L · T R A N S D U C E R · F O R · N O G A Y    !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
 Multichar_Symbols
 
 %<n%>                     ! 
@@ -209,6 +215,12 @@ V-NONFIN ;
 LEXICON V-IV 
 
 %<v%>%<iv%>: V-COMMON ; 
+
+LEXICON V-TV
+
+%<v%>%<tv%>: V-COMMON ; 
+
+
 
 LEXICON PRON-MEN
 
@@ -533,6 +545,7 @@ LEXICON Adverbs
 LEXICON Verbs 
 
 бол:бол V-IV ; ! "быть"
+де:де V-TV ; ! ""
 
 
 LEXICON Punctuation
