@@ -3,6 +3,7 @@ Multichar_Symbols
 %<n%>                     ! 
 %<v%>                     ! 
 %<np%>                    ! 
+%<num%>                   ! 
 %<adj%>                   ! 
 %<prn%>                   ! 
 %<adv%>                   ! 
@@ -17,6 +18,8 @@ Multichar_Symbols
 %<top%>                   ! 
 %<ant%>                   ! 
 %<pers%>                  ! 
+
+%<ord%>                   ! 
 
 %<m%>                     ! 
 %<f%>                     ! 
@@ -85,6 +88,7 @@ LEXICON Root
 
 Nouns ; 
 Postpositions ; 
+Numerals ; 
 Pronouns ; 
 Conjunctions ; 
 Adverbs ; 
@@ -227,6 +231,17 @@ LEXICON PRON-SIZ
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 
+LEXICON NUM-COMMON
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
+
+LEXICON NUM
+
+NUM-COMMON ;
+%<num%>%<ord%>:%>%{I%}нш%{I%} # ;             ! FIXME: base form, <det> reading
+%<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
+
 LEXICON CC
 
 %<cnjcoo%>: # ; 
@@ -257,6 +272,8 @@ LEXICON Postpositions
 ман:%~ман POST ; ! "" ! Dir/RL
 ман:мен POST ; ! "" Dir/LR
 ман:ман POST ; ! "" Dir/LR
+ман:пен POST ; ! "" Dir/LR
+ман:пан POST ; ! "" Dir/LR
 
 LEXICON Conjunctions 
 
@@ -278,6 +295,32 @@ LEXICON Pronouns
 ол:о PRON-OL ;  ! "он; она; оно"
 биз:биз PRON-BIZ ; ! "мы"
 сиз:сиз PRON-SIZ ; ! "вы"
+
+LEXICON Numerals
+
+бир:бир NUM ; ! "один"
+эки:эки NUM ; ! ""
+уьш:уьш NUM ; ! ""
+доьрт:доьрт NUM ; ! ""
+бес:бес NUM ; ! ""
+алты:алты NUM ; ! ""
+ети:ети NUM ; ! ""
+сегиз:сегиз NUM ; ! ""
+тогыз:тогыз NUM ; ! ""
+он:он NUM ; ! ""
+
+йырма:йырма NUM ; ! ""
+отыз:отыз NUM ; 
+кырк:кырк NUM ; ! ""
+элли:элли NUM ; ! ""
+алпыс:алпыс NUM ; ! ""
+етпис:етпис NUM ; ! ""
+сексен:сексен NUM ; ! ""
+токсан:токсан NUM ; ! ""
+
+юз:юз NUM ; ! ""
+
+мынъ:мынъ NUM ; ! "тысыч"
 
 LEXICON Nouns
 
@@ -374,7 +417,6 @@ LEXICON Nouns
 телефон:телефон N1 ; ! ""
 техника:техника N1 ; ! ""
 трактор:трактор N1 ; ! ""
-февраль:февраль N1 ; ! ""
 федерация:федерация N1 ; ! ""
 ферма:ферма N1 ; ! ""
 филиал:филиал N1 ; ! ""
@@ -388,7 +430,7 @@ LEXICON Nouns
 объект:объект N1 ; ! ""
 приоритет:приоритет N1 ; ! ""
 
-
+февраль:февраль N1 ; ! ""
 
 LEXICON ProperNouns
 
