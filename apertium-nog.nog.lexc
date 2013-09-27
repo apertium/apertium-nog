@@ -319,6 +319,17 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<acc%>:муны CLIT ;
 бу%<prn%>%<dem%>%<loc%>:мунда CLIT ;
 бу%<prn%>%<dem%>%<abl%>:мундан CLIT ;
+бу%<prn%>%<dem%>%<pl%>:булар CASES-ETC ;
+
+LEXICON PRON-DEM-SOL
+
+%<prn%>%<dem%>%<nom%>:л CLIT ;
+%<prn%>%<dem%>%<gen%>:нынъ CLIT ;
+%<prn%>%<dem%>%<dat%>:нга CLIT ;
+%<prn%>%<dem%>%<acc%>:ны CLIT ;
+%<prn%>%<dem%>%<loc%>:нда CLIT ;
+%<prn%>%<dem%>%<abl%>:ннан CLIT ;
+%<prn%>%<dem%>%<pl%>:лар CASES-ETC ;
 
 
 LEXICON NUM-COMMON
@@ -408,6 +419,9 @@ LEXICON Pronouns
 олар:олар PRON-OLAR ; ! "они"
 
 PRON-DEM-BU ; ! ""
+
+ол:о PRON-DEM-SOL ; ! ""
+сол:со PRON-DEM-SOL ; ! ""
 
 LEXICON Determiners
 
@@ -751,6 +765,7 @@ LEXICON Verbs
 сора:сора V-TV ; ! "просить"
 сакла:сакла V-TV ; ! "защищать"
 оьт:оьт V-TV ; ! "проникать"
+озгар:озгар V-TV ; ! ""
 
 
 LEXICON Punctuation
