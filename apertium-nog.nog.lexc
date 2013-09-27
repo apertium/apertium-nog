@@ -298,16 +298,27 @@ LEXICON PRON-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:им # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ге # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:де # ;
 
 LEXICON PRON-SIZ 
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:инъ # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ге # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:де # ;
 
 LEXICON PRON-OLAR 
 
-%<prn%>%<pers%>%<p3%>%<pl%>: CASES ; 
+%<prn%>%<pers%>%<p3%>%<pl%>: CASES ;
+
+LEXICON PRON-DEM-BU
+
+бу%<prn%>%<dem%>%<nom%>:бу CLIT ;
+бу%<prn%>%<dem%>%<gen%>:мунынъ CLIT ;
+бу%<prn%>%<dem%>%<dat%>:буга CLIT ;
+бу%<prn%>%<dem%>%<acc%>:муны CLIT ;
+бу%<prn%>%<dem%>%<loc%>:мунда CLIT ;
+бу%<prn%>%<dem%>%<abl%>:мундан CLIT ;
 
 
 LEXICON NUM-COMMON
@@ -395,6 +406,8 @@ LEXICON Pronouns
 биз:биз PRON-BIZ ; ! "мы"
 сиз:сиз PRON-SIZ ; ! "вы"
 олар:олар PRON-OLAR ; ! "они"
+
+PRON-DEM-BU ; ! ""
 
 LEXICON Determiners
 
@@ -523,7 +536,10 @@ LEXICON Nouns
 согысшы:согысшы N1 ; ! "воин"
 коьпир:коьпир N1 ; ! "мост"
 авыл:авыл N1 ; ! "кишлак"
-кыслав:кыслав N1 ; ! "кыслав"
+кыслав:кыслав N1 ; ! "кишлак"
+мырат:мырат N1 ; ! ""
+ниет:ниет N1 ; ! ""
+аьл:аьл N1 ; ! ""
 
 
 
@@ -628,9 +644,8 @@ LEXICON Nouns
 граждан:граждан N1 ; ! ""
 книга:книга N1 ; ! "книга"
 идея:идея N1 ; ! ""
-мырат:мырат N1 ; ! ""
-ниет:ниет N1 ; ! ""
-аьл:аьл N1 ; ! ""
+хозяйство:хозяйство N1 ; ! ""
+милиция:милиция N1 ; ! ""
 
 председатель:председатель N1 ; ! ""
 исследователь:исследователь N1 ; ! ""
