@@ -241,6 +241,11 @@ LEXICON V-FIN-REG-NEG
 %<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D²%}%{I%} V-PERS-S2 ;
 
+LEXICON V-FIN-IRREG-NEG
+
+%<fut%>:%>%{A%}р V-PERS-S1 ;
+%<neg%>%<fut%>:%>м%{A%} V-PERS-S1 ;
+
 LEXICON V-NONFIN
 
 %<ger%>:%>%{u%}%{ь%}в CASES ;  ! Also takes possessives
@@ -254,6 +259,7 @@ LEXICON V-NONFIN
 LEXICON V-COMMON
 
 V-FIN-REG-NEG ; 
+V-FIN-IRREG-NEG ; 
 V-NONFIN ; 
 
 LEXICON V-IV 
@@ -320,6 +326,7 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<loc%>:мунда CLIT ;
 бу%<prn%>%<dem%>%<abl%>:мундан CLIT ;
 бу%<prn%>%<dem%>%<pl%>:булар CASES-ETC ;
+бу%<prn%>%<dem%>%<sim%>:мундай CLIT ;
 
 LEXICON PRON-DEM-SOL
 
@@ -330,6 +337,7 @@ LEXICON PRON-DEM-SOL
 %<prn%>%<dem%>%<loc%>:нда CLIT ;
 %<prn%>%<dem%>%<abl%>:ннан CLIT ;
 %<prn%>%<dem%>%<pl%>:лар CASES-ETC ;
+%<prn%>%<dem%>%<sim%>:ндай CLIT ;
 
 
 LEXICON NUM-COMMON
@@ -754,6 +762,10 @@ LEXICON Adverbs
 LEXICON Verbs 
 
 бол:бол V-IV ; ! "быть"
+
+тур:тур V-IV ; ! ""
+ят:ят V-IV ; ! ""
+
 кел:кел V-IV ; ! ""
 де:де V-TV ; ! ""
 соьйле:соьйле V-TV ; ! ""
