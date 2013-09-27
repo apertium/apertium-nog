@@ -56,3 +56,6 @@ Rules
 "Deletion of {u} after vowels"
 %{u%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
 
+"Deletion of ь when vowel-initial stem follows"
+ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
+
