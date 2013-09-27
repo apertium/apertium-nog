@@ -34,6 +34,9 @@ AbstractCns = %{s%} %{n%} ;
 
 Rules 
 
+"Vowel harmony for {ь}"
+%{ь%}:ь <=> [ [ :э | :и | :е ] :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] [ :у | :а | :о ]  _ ;
+
 !"Vowel harmony for archiphoneme {A}"
 !%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] _ ;
 !        where LastVowel in (  э и я е ы ё ю )

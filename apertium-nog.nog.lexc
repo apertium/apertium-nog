@@ -29,6 +29,7 @@ Multichar_Symbols
 %<ind%>                   ! 
 %<dem%>                   ! 
 %<ord%>                   ! 
+%<ref%>                   ! 
 
 %<m%>                     ! 
 %<f%>                     ! 
@@ -328,6 +329,11 @@ LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
 
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
+
+
 LEXICON CC
 
 %<cnjcoo%>: # ; 
@@ -395,6 +401,9 @@ LEXICON Determiners
 бу:бу DET-DEM ; ! ""
 ол:ол DET-DEM ; ! ""
 сол:сол DET-DEM ; ! ""
+
+оьз:оьз DET-REF ; ! "oneself's" FIXME
+
 
 LEXICON Numerals
 
@@ -512,6 +521,9 @@ LEXICON Nouns
 согыс:согыс N1 ; ! "война"
 кавга:кавга N1 ; ! "война"
 согысшы:согысшы N1 ; ! "воин"
+коьпир:коьпир N1 ; ! "мост"
+авыл:авыл N1 ; ! "кишлак"
+кыслав:кыслав N1 ; ! "кыслав"
 
 
 
@@ -662,6 +674,8 @@ LEXICON ProperNouns
 LEXICON Adjectives
 
 йок:йок A3 ; ! ""
+бар:бар A3 ; ! ""
+коьп:коьп A1 ; ! "много"
 
 кызыл:кызыл A1 ; ! "красный"
 уьйкен:уьйкен A1 ; ! "большой"
