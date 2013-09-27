@@ -246,7 +246,7 @@ LEXICON V-FIN-IRREG-NEG
 %<fut%>:%>%{A%}р V-PERS-S1 ;
 %<neg%>%<fut%>:%>м%{A%} V-PERS-S1 ;
 
-LEXICON V-NONFIN
+LEXICON V-NONFIN-REG-NEG
 
 %<ger%>:%>%{u%}%{ь%}в CASES ;  ! Also takes possessives
 
@@ -259,8 +259,13 @@ LEXICON V-NONFIN
 LEXICON V-COMMON
 
 V-FIN-REG-NEG ; 
+%<neg%>:%>%{M%}%{A%} V-FIN-REG-NEG ; 
+
 V-FIN-IRREG-NEG ; 
-V-NONFIN ; 
+
+V-NONFIN-REG-NEG ; 
+%<neg%>:%>%{M%}%{A%} V-NONFIN-REG-NEG ;
+
 
 LEXICON V-IV 
 
