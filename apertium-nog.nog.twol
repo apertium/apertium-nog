@@ -81,7 +81,7 @@ Rules
                                  ь: :0* _ ;
 
 "Vowel harmony for {I}"
-%{I%}:е <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
+%{I%}:и <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
                                  ь: :0* _ ;
             
 ! in progress
