@@ -11,12 +11,14 @@ Multichar_Symbols
 %<np%>                    ! 
 %<num%>                   ! 
 %<adj%>                   ! 
+%<cop%>                   ! 
 %<det%>                   ! 
 %<prn%>                   ! 
 %<adv%>                   ! 
 %<post%>                  ! 
 %<cnjsub%>                ! 
 %<cnjcoo%>                ! 
+%<cnjadv%>                ! 
 
 %<attr%>                  ! 
 %<subst%>                 ! 
@@ -57,6 +59,7 @@ Multichar_Symbols
 %<loc%>                   ! 
 %<abl%>                   ! 
 
+%<abe%>                   ! 
 %<sim%>                   ! 
 
 %<iv%>                    ! 
@@ -68,6 +71,7 @@ Multichar_Symbols
 %<pres%>                  ! 
 %<past%>                  ! 
 %<ifi%>                   ! 
+%<imp%>                   ! 
 
 %<ger%>                   ! 
 
@@ -119,20 +123,33 @@ Adverbs ;
 Adjectives ; 
 ProperNouns ; 
 Verbs ; 
+Copula ;
 Punctuation ; 
 
 LEXICON CLIT 
 
 # ;
 
+LEXICON CLIT-COP
+
+!%+э%<cop%>: V-PERS-S1-NO3PERSON ;
+!%+э%<cop%>: V-PERS-S1 ;
+
+# ; 
+
+LEXICON CLIT-INCL-COP
+
+CLIT-COP ; 
+CLIT ; 
+
 LEXICON CASES 
 
-%<nom%>: CLIT ; 
+%<nom%>: CLIT-INCL-COP ; 
 %<gen%>:%>%{D³%}%{I%}нъ CLIT ; 
 %<acc%>:%>%{D²%}%{I%} CLIT ; 
 %<dat%>:%>%{G%}%{A%} CLIT ; 
-%<loc%>:%>%{D²%}%{A%} CLIT ; 
-%<abl%>:%>%{D³%}%{A%}н CLIT ; 
+%<loc%>:%>%{D²%}%{A%} CLIT-INCL-COP ; 
+%<abl%>:%>%{D³%}%{A%}н CLIT-INCL-COP ; 
 
 LEXICON ATTR-SUBST
 
@@ -160,10 +177,22 @@ CASES-ETC ;
 %<px2pl%>:%>%{I%}нъ%{I%}з CASES-ETC ; 
 %<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-ETC ; 
 
+LEXICON ABESS-INFL
+
+!%<attr%>: CLIT ; 
+!%<advl%>: CLIT ; 
+CLIT ; 
+%<subst%>: CASES ; 
+
+LEXICON ABESS
+
+%+сыз%<post%>:%>с%{I%}з ABESS-INFL ;
+
 LEXICON N-INFL-COMMON
 
 POSS ;
 CASES-ETC ;
+ABESS ; 
 
 LEXICON NP-COMMON
 N-INFL-COMMON ;
@@ -207,6 +236,21 @@ LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>: NP-COMMON ;
 %<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-COG-OVA
+
+%<np%>%<cog%>%<f%>:а NP-COMMON ;  
+
+LEXICON NP-COG-OV
+
+%<np%>%<cog%>%<m%>: NP-COMMON ;  
+NP-COG-OVA ; 
+
+LEXICON NP-COG-IN
+
+%<np%>%<cog%>%<m%>: NP-COMMON ;  
+NP-COG-OVA ; 
+
 
 LEXICON NP-AL
 
@@ -278,6 +322,8 @@ LEXICON V-NONFIN-REG-NEG
 %<prc_cond%>:%>с%{A%} CLIT ; 
 
 %<gna_cond%>:%>с%{A%} CLIT ;
+
+%<imp%>%<p2%>%<sg%>: CLIT ;
 
 LEXICON V-COMMON
 
@@ -412,7 +458,9 @@ LEXICON DET-QNT
 
 %<det%>%<qnt%>: # ;
 
+LEXICON CA
 
+%<cnjadv%>: # ; 
 
 LEXICON CC
 
@@ -441,6 +489,11 @@ LEXICON POST
 %<post%>: # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Copula 
+
+э%<cop%>%<past%>:экен V-PERS-S1 ;
+э%<cop%>%<ifi%>:э%>%{D²%}%{I%} V-PERS-S2 ;
 
 LEXICON Postpositions
 
@@ -473,7 +526,14 @@ LEXICON Conjunctions
 ама:ама CC ; ! "но"
 эм:эм CC ; ! "и"
 
+солай% ок:солай% ок CC ; ! "(kaz) сондай-ақ"
+
 эгер:эгер CS ; ! "если"
+
+солайша:солайша CA ; ! "постольку"
+коьре:коьре CA ; ! "постольку"
+соьйтип:соьйтип CA ; ! "итак"
+солай% этип:солай% этип CA ; ! "итак"
 
 LEXICON Pronouns 
 
@@ -633,6 +693,12 @@ LEXICON Nouns
 дин:дин N1 ; ! ""
 эл:эл N1 ; ! ""
 бурын:бурын N1 ; ! "нос"
+ыз:ыз N1 ; ! "отпечаток"
+оьзгерис:оьзгерис N1 ; ! ""
+кутлав:кутлав N1 ; ! "приветствие"
+аш:аш N1 ; ! ""
+шаш:шаш N1 ; ! ""
+аьвлет:аьлет N1 ; ! ""
 
 
 
@@ -741,6 +807,8 @@ LEXICON Nouns
 хозяйство:хозяйство N1 ; ! ""
 милиция:милиция N1 ; ! ""
 совет:совет N1 ; ! ""
+коррупция:коррупция N1 ; ! ""
+правительство:правительство N1 ; ! ""
 
 председатель:председатель N1 ; ! ""
 исследователь:исследователь N1 ; ! ""
@@ -782,6 +850,22 @@ LEXICON ProperNouns
 Ольга:Ольга NP-ANT-F ; ! ""
 Танья:Танья NP-ANT-F ; ! ""
 Наталья:Наталья NP-ANT-F ; ! ""
+Гульфира:Гульфира NP-ANT-F ; ! ""
+
+Медведев:Медведев NP-COG-OV ; ! ""
+Путин:Путин NP-COG-IN ; ! ""
+Магомедов:Магомедов NP-COG-OV ; ! ""
+Аджибаев:Аджибаев NP-COG-OV ; ! ""
+Авезов:Авезов NP-COG-OV ; ! ""
+Сагиндиков:Сагиндиков NP-COG-OV ; ! ""
+Кожаев:Кожаев NP-COG-OV ; ! ""
+Бекмуратов:Бекмуратов NP-COG-OV ; ! ""
+Ханов:Ханов NP-COG-OV ; ! ""
+Джанибеков:Джанибеков NP-COG-OV ; ! ""
+Курбанов:Курбанов NP-COG-OV ; ! ""
+Газимагомедов:Газимагомедов NP-COG-OV ; ! ""
+Агаспаров:Агаспаров NP-COG-OV ; ! ""
+
 
 Единая% Россия:Единая% Россия NP-AL ; ! ""
 
@@ -871,6 +955,11 @@ LEXICON Verbs
 яз:яз V-TV ; ! "писать"
 белгиле:белгиле V-TV ; ! "" FIXME
 айт:айт V-TV ; ! ""
+тапшыр:тапшыр V-TV ; ! ""
+карат:карат V-TV ; ! "лечить"
+
+йолыгыс:йолыгыс V-IV ; ! "" FIXME
+коьрис:коьрис V-IV ; ! "" FIXME
 
 LEXICON Punctuation
 
