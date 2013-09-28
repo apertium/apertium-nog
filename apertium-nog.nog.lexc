@@ -29,6 +29,7 @@ Multichar_Symbols
 %<ind%>                   ! 
 %<dem%>                   ! 
 %<itg%>                   ! 
+%<qnt%>                   ! 
 %<ord%>                   ! 
 %<ref%>                   ! 
 
@@ -368,6 +369,13 @@ LEXICON PRON-ITG
 
 %<prn%>%<itg%>: SUBST ; 
 
+LEXICON PRON-NEG
+
+%<prn%>%<neg%>: SUBST ; 
+
+LEXICON PRON-QNT-BERI
+
+%<prn%>%<qnt%>: CASES ; 
 
 LEXICON NUM-COMMON
 
@@ -392,6 +400,11 @@ LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
 
+LEXICON DET-QNT
+
+%<det%>%<qnt%>: # ;
+
+
 
 LEXICON CC
 
@@ -409,6 +422,11 @@ LEXICON ADV2
 
 N1;
 ADV1 ; 
+
+LEXICON ADV3
+
+%<adv%>%<itg%>: # ; 
+
 
 LEXICON POST 
 
@@ -464,6 +482,10 @@ PRON-DEM-BU ; ! ""
 не:не PRON-ITG ; ! "что"
 кайсы:кайсы PRON-ITG-QAJSY ; ! ""
 
+еш% ким:еш% ким PRON-NEG ; ! ""
+
+баьри:баьри PRON-QNT-BERI ; ! ""
+
 LEXICON Determiners
 
 бу:бу DET-DEM ; ! ""
@@ -471,6 +493,8 @@ LEXICON Determiners
 сол:сол DET-DEM ; ! ""
 
 оьз:оьз DET-REF ; ! "oneself's" FIXME
+
+аьр:аьр DET-QNT ; ! "каждый"
 
 
 LEXICON Numerals
@@ -701,6 +725,7 @@ LEXICON Nouns
 идея:идея N1 ; ! ""
 хозяйство:хозяйство N1 ; ! ""
 милиция:милиция N1 ; ! ""
+совет:совет N1 ; ! ""
 
 председатель:председатель N1 ; ! ""
 исследователь:исследователь N1 ; ! ""
@@ -759,6 +784,7 @@ LEXICON Adjectives
 ортак:ортак A1 ; ! ""
 яман:яман A1 ; ! "плохой"
 ашык:ашык A1 ; ! "красочный"
+янъы:янъы A1 ; ! "новый"
 
 
 социал%-экономикалык:социал%-экономикалык A4 ; ! ""
@@ -778,6 +804,12 @@ LEXICON Adjectives
 
 
 LEXICON Adverbs 
+
+калай:калай ADV3 ; ! "как"
+кайда:кайда ADV3 ; ! "где"
+кайерде:кайерде ADV3 ; ! "где"
+кайдан:кайдан ADV3 ; ! "откуда"
+кайерден:кайерден ADV3 ; ! "откуда"
 
 бек:бек ADV1 ; ! "очень"
 энъ:энъ ADV1 ; ! "" 
@@ -816,7 +848,8 @@ LEXICON Verbs
 оьт:оьт V-TV ; ! "проникать"
 озгар:озгар V-TV ; ! ""
 яз:яз V-TV ; ! "писать"
-
+белгиле:белгиле V-TV ; ! "" FIXME
+айт:айт V-TV ; ! ""
 
 LEXICON Punctuation
 
