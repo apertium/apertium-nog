@@ -72,12 +72,15 @@ Multichar_Symbols
 %<neg%>                   ! 
 
 %<fut%>                   ! 
-%<aor%>                  ! 
+%<aor%>                   ! 
 %<past%>                  ! 
 %<ifi%>                   ! 
 %<imp%>                   ! 
+%<opt%>                   ! 
 
 %<ger%>                   ! 
+%<ger1%>                  ! 
+%<ger_past%>              ! 
 
 %<prc_perf%>              ! 
 %<prc_cond%>              ! 
@@ -96,7 +99,6 @@ Multichar_Symbols
 
 ! Archiphonemes and escaped symbols
 %{A%}                     ! 'а' или 'е' 
-%{А%}                     ! 'а' или 'е' 
 %{I%}                     ! 'ы' или 'и'
 %{G%}                     ! 'к' или 'г'
 %{D²%}                    ! 'т' или 'д'
@@ -160,7 +162,7 @@ LEXICON ATTR-SUBST
 
 %<attr%>: # ;
 %<subst%>: CASES ;
-%<subst%>%<pl%>:%>%{L%}%{А%}р CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON GENPOSS-ETC 
 
@@ -205,7 +207,7 @@ N-INFL-COMMON ;
 LEXICON SUBST
 
 N-INFL-COMMON ;
-%<pl%>:%>%{L%}%{А%}р N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
 
 LEXICON N-COMPOUND-PX-COMMON
 
@@ -337,6 +339,7 @@ LEXICON V-NONFIN-REG-NEG
 
 %<ger%>:%>%{u%}%{ь%}в SUBST ;  ! FIXME: Will overgenerate
 %<ger_past%>:%>%{G%}%{A%}н SUBST ; ! FIXME: Will overgenerate
+%<ger1%>:%{M%}%{A%} SUBST ; ! FIXME: Will overgenerate
 
 %<prc_cond%>:%>с%{A%} CLIT ; 
 
@@ -345,6 +348,8 @@ LEXICON V-NONFIN-REG-NEG
 %<gpr_past%>:%>%{G%}%{A%}н # ;
 
 %<imp%>%<p2%>%<sg%>: CLIT ;
+
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н CLIT ;
 
 LEXICON V-COMMON
 
@@ -450,6 +455,10 @@ LEXICON PRON-NEG
 LEXICON PRON-QNT-BERI
 
 %<prn%>%<qnt%>: CASES ; 
+
+LEXICON PRON-QNT 
+
+%<prn%>%<qnt%>: SUBST ; ! FIXME
 
 LEXICON NUM-COMMON
 
@@ -591,6 +600,8 @@ PRON-DEM-BU ; ! ""
 еш% ким:еш% ким PRON-NEG ; ! ""
 
 баьри:баьри PRON-QNT-BERI ; ! ""
+
+бирев:бирев PRON-QNT ; ! ""
 
 LEXICON Determiners
 
@@ -759,6 +770,11 @@ LEXICON Nouns
 маданият:маданият N1 ; ! "культура"
 йигит:йигит N1 ; ! "молодец"
 йыйын:йыйын N1 ; ! "съезд"
+муьше:муьше N1 ; ! "орган"
+савлык:савлык N1 ; ! ""
+ден:ден N1 ; ! ""
+маьне:маьне N1 ; ! ""
+маьнет:маьнет N1 ; ! ""
 
 яшавшы:яшавшы N1 ; ! "жилец"
 куллыкшы:куллыкшы N1 ; ! ""
@@ -889,6 +905,7 @@ LEXICON Nouns
 служба:служба N1 ; ! ""
 стратегия:стратегия N1 ; ! ""
 демократия:демократия N1 ; ! ""
+учебник:учебник N1 ; ! ""
 
 председатель:председатель N1 ; ! ""
 исследователь:исследователь N1 ; ! ""
@@ -900,6 +917,11 @@ LEXICON Nouns
 февраль:февраль N1 ; ! ""
 март:март N1 ; ! ""
 апрель:апрель N1 ; ! ""
+май:май N1 ; ! ""
+июнь:июнь N1 ; ! ""
+июль:июль N1 ; ! ""
+август:август N1 ; ! ""
+сентябрь:сентябрь N1 ; ! ""
 октябрь:октябрь N1 ; ! ""
 ноябрь:нояабрь N1 ; ! ""
 декабрь:декабрь N1 ; ! ""
@@ -1100,7 +1122,7 @@ LEXICON Verbs
 буьгуь:буьгуь V-TV ; ! "ломить"
 ок:ок V-TV ; ! "почитать"
 ойла:ойла V-TV ; ! "полагать"
-туьз:туьз V-TV ; ! "координировать"
+туьз:туьз V-TV ; ! "составить"
 кет:кет V-IV ; ! "отъехать"
 оз:оз V-TV ; ! "" FIXME
 шакыр:шакыр V-TV ; ! "позвать"
