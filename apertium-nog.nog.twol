@@ -79,12 +79,11 @@ Rules
 "Vowel harmony for {A}"
 %{A%}:е <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
                                  ь: :0* _ ;
-             :е :м :л _ ;
 
 "Vowel harmony for {I}"
-%{I%}:е <=>                       :ь :0* _ ;
-             [ :FrontVow :Cns :Cns* ]/:0 _ ;
-
+%{I%}:е <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
+                                 ь: :0* _ ;
+            
 ! in progress
 !"{M} desonorisation rule"
 !%{M%}:б <=> : :0* _ ;
