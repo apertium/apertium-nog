@@ -82,7 +82,7 @@ Rules
 
 "Vowel harmony for {I}"
 %{I%}:и <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
-                                 ь: :0* _ ;
+                            :Cns ь: :0* _ ;
             
 ! in progress
 !"{M} desonorisation rule"
