@@ -67,6 +67,8 @@ Rules
 ! TODO: Some verbs end in -уь (e.g. буьгуьв)
 "Deletion of ь when vowel-initial stem follows"
 ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
+       except
+             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
 
 "Passive {l} becomes n after verb stem ending in /l/"
 %{l%}:н <=> [ л :Vow ]/[ :0 | %>: ] _ ;
