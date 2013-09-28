@@ -263,11 +263,13 @@ LEXICON NP-COG-MF
 %<np%>%<cog%>%<mf%>: NP-COMMON ;  
 NP-COG-OVA ; 
 
-
-
 LEXICON NP-AL
 
 %<np%>%<al%>: CASES ;
+
+LEXICON NP-AL-ACR
+
+%<np%>%<al%>:%- CASES ;
 
 LEXICON A1 
 
@@ -1009,7 +1011,7 @@ LEXICON ProperNouns
 
 Единая% Россия:Единая% Россия NP-AL ; ! ""
 Шоьл% тавысы:Шоьл% тавысы NP-AL ; ! ""
-
+МВД:МВД NP-AL-ACR ; ! "" 
 
 LEXICON Adjectives
 
