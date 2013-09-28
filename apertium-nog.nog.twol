@@ -53,6 +53,10 @@ Rules
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
 
+"Deletion of {n} before genitive {D³}{I}"
+%{n%}:0 <=>  _ %>: %{D³%}: %{I%}: :н :ъ ;
+
+
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
 
