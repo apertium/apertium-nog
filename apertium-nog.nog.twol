@@ -11,6 +11,7 @@ Alphabet
  %{D³%}:д %{D³%}:т %{D³%}:н
  %{G%}:к  %{G%}:г
  %{М%}:б  %{M%}:п  %{M%}:м
+ %{l%}:л  %{l%}:н
  %{s%}:с 
  %{n%}:н
  %{ь%}:0
@@ -24,9 +25,9 @@ Sets
 Vow = а э и о у А Э И О У     ! Аь Уь Оь 
       я е ы ё у Я Е Ы Ё Ю  ;  ! Аь уь Оь
 
-Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь    ! Нъ
-      б в г д ж з й к л м н п р с т ф х ц ч ш щ ь    ! нъ
-      %{L%} %{G%} %{M%} %{D²%} %{D³%} %{s%} %{n%} ;  ! 
+Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь          ! Нъ
+      б в г д ж з й к л м н п р с т ф х ц ч ш щ ь          ! нъ
+      %{L%} %{G%} %{M%} %{D²%} %{D³%} %{s%} %{n%} %{l%} ;  ! 
 
 Abstract = %{s%} %{n%} ;
 AbstractCns = %{s%} %{n%} ;
@@ -63,6 +64,10 @@ Rules
 "Deletion of {u} after vowels"
 %{u%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
 
+! TODO: Some verbs end in -уь (e.g. буьгуьв)
 "Deletion of ь when vowel-initial stem follows"
 ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
+
+"Passive {l} becomes n after verb stem ending in /l/"
+%{l%}:н <=> [ л :Vow ]/[ :0 | %>: ] _ ;
 
