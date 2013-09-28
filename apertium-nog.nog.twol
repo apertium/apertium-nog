@@ -10,7 +10,7 @@ Alphabet
  %{D²%}:д %{D²%}:т
  %{D³%}:д %{D³%}:т %{D³%}:н
  %{G%}:к  %{G%}:г
- %{М%}:б  %{M%}:п  %{M%}:м
+ %{М%}:м  %{M%}:б  %{M%}:п
  %{l%}:л  %{l%}:н
  %{s%}:с 
  %{n%}:н
@@ -77,10 +77,13 @@ Rules
 
 
 "Vowel harmony for {А}"
-%{А%}:е <=>                   :ь :0* _ ;
-            :FrontVow :Cns :Cns* :0* _ ;
+%{А%}:е <=>                       :ь :0* _ ;
+            [ :FrontVow :Cns :Cns* ]/:0* _ ;
 
 "Vowel harmony for {I}"
-%{I%}:е <=>                   :ь :0* _ ;
-            :FrontVow :Cns :Cns* :0* _ ;
+%{I%}:е <=>                      :ь :0* _ ;
+            [ :FrontVow :Cns :Cns*]/:0* _ ;
 
+! in progress
+!"{М} desonorisation rule"
+!%{М%}:б <=> : :0* _ ;
