@@ -15,6 +15,7 @@ Alphabet
  %{s%}:с 
  %{n%}:н
  %{ь%}:0
+ %{e%}:0
 
  % 
  
@@ -23,7 +24,7 @@ Alphabet
 Sets 
 
 Vow = а э и о у А Э И О У     ! Аь Уь Оь 
-      я е ы ё у Я Е Ы Ё Ю  ;  ! Аь уь Оь
+      я е ы ё ю Я Е Ы Ё Ю  ;  ! Аь уь Оь
 
 Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ        ! Нъ
       б в г д ж з й к л м н п р с т ф х ц ч ш щ ь ъ        ! нъ
@@ -78,11 +79,14 @@ Rules
 
 "Vowel harmony for {A}"
 %{A%}:е <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
-                                 ь: :0* _ ;
+                            :Cns ь: :0* _ ;
+            [ :Cns :Cns* ]/[ :FrontVow | %{е%}:0 | :0 ] _ ;
 
 "Vowel harmony for {I}"
 %{I%}:и <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
                             :Cns ь: :0* _ ;
+            [ :Cns :Cns* ]/[ :FrontVow | %{е%}:0 | :0 ] _ ;
+
             
 ! in progress
 !"{M} desonorisation rule"
