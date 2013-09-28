@@ -188,6 +188,11 @@ LEXICON N2
 %<n%>: N-COMPOUND-PX-COMMON ;
 %<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} CASES-ETC ; ! (e.g. чик сакчылары=пограничники)
 
+LEXICON NP-TOP-ACR
+
+%<np%>%<top%>:%- CASES ;
+%<np%>%<top%>%<attr%>: # ;
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: NP-COMMON ;
@@ -442,6 +447,7 @@ LEXICON Postpositions
 бербетин:бербетин POST ; ! ""
 дейим:дейим POST ; ! ""
 сайын:сайын POST ; ! ""
+бойынша:бойынша POST ; ! ""
 
 ман:%~ман POST ; ! "" ! Dir/RL
 ман:мен POST ; ! "" Dir/LR
@@ -746,6 +752,9 @@ LEXICON ProperNouns
 Нью%-Йорк:Нью%-Йорк NP-TOP ; ! ""
 Санкт%-Петербург:Санкт%-Петербург NP-TOP ; ! ""
 Москва:Москва NP-TOP ; ! ""
+
+ДР:ДР NP-TOP-ACR ; ! ""
+РФ:РФ NP-TOP-ACR ; ! ""
 
 Азамат:Азамат NP-ANT-M ; ! ""
 Марат:Марат NP-ANT-M ; ! ""
