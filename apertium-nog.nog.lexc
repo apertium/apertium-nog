@@ -28,6 +28,7 @@ Multichar_Symbols
 
 %<ind%>                   ! 
 %<dem%>                   ! 
+%<itg%>                   ! 
 %<ord%>                   ! 
 %<ref%>                   ! 
 
@@ -60,6 +61,10 @@ Multichar_Symbols
 %<iv%>                    ! 
 %<tv%>                    ! 
 
+%<neg%>                   ! 
+
+%<fut%>                   ! 
+%<pres%>                  ! 
 %<past%>                  ! 
 %<ifi%>                   ! 
 
@@ -243,17 +248,26 @@ LEXICON V-FIN-REG-NEG
 
 LEXICON V-FIN-IRREG-NEG
 
+%<pres%>:%>%{A%} V-PERS-S1 ; ! FIXME
+%<neg%>%<pres%>:%>%{M%}%{A%}й V-PERS-S1 ; ! FIXME
+
 %<fut%>:%>%{A%}р V-PERS-S1 ;
 %<neg%>%<fut%>:%>м%{A%} V-PERS-S1 ;
+
+LEXICON V-NONFIN-IRREG-NEG 
+
+%<prc_perf%>:%>%{I%}п CLIT ; 
+%<neg%>%<prc_perf%>:%>%{M%}%{A%}%>й CLIT ;
+
+%<gna_perf%>:%>%{I%}п CLIT ;
+%<neg%>%<gna_perf%>:%>%{M%}%{A%}%>й CLIT ;
 
 LEXICON V-NONFIN-REG-NEG
 
 %<ger%>:%>%{u%}%{ь%}в CASES ;  ! Also takes possessives
 
-%<prc_perf%>:%>%{I%}п CLIT ; 
 %<prc_cond%>:%>с%{A%} CLIT ; 
 
-%<gna_perf%>:%>%{I%}п CLIT ;
 %<gna_cond%>:%>с%{A%} CLIT ;
 
 LEXICON V-COMMON
@@ -265,6 +279,8 @@ V-FIN-IRREG-NEG ;
 
 V-NONFIN-REG-NEG ; 
 %<neg%>:%>%{M%}%{A%} V-NONFIN-REG-NEG ;
+
+V-NONFIN-IRREG-NEG ; 
 
 
 LEXICON V-IV 
@@ -343,6 +359,14 @@ LEXICON PRON-DEM-SOL
 %<prn%>%<dem%>%<abl%>:ннан CLIT ;
 %<prn%>%<dem%>%<pl%>:лар CASES-ETC ;
 %<prn%>%<dem%>%<sim%>:ндай CLIT ;
+
+LEXICON PRON-ITG-QAJSY
+
+%<prn%>%<itg%>%<nom%>: CLIT ; 
+
+LEXICON PRON-ITG 
+
+%<prn%>%<itg%>: SUBST ; 
 
 
 LEXICON NUM-COMMON
@@ -435,6 +459,10 @@ PRON-DEM-BU ; ! ""
 
 ол:о PRON-DEM-SOL ; ! ""
 сол:со PRON-DEM-SOL ; ! ""
+
+ким:ким PRON-ITG ; ! "кто"
+не:не PRON-ITG ; ! "что"
+кайсы:кайсы PRON-ITG-QAJSY ; ! ""
 
 LEXICON Determiners
 
@@ -769,7 +797,11 @@ LEXICON Verbs
 бол:бол V-IV ; ! "быть"
 
 тур:тур V-IV ; ! ""
+бер:бер V-TV ; ! ""
 ят:ят V-IV ; ! ""
+кой:кой V-TV ; ! ""
+шык:шык V-IV ; ! ""
+йибер:йибер V-TV ; ! ""
 
 кел:кел V-IV ; ! ""
 де:де V-TV ; ! ""
@@ -783,6 +815,7 @@ LEXICON Verbs
 сакла:сакла V-TV ; ! "защищать"
 оьт:оьт V-TV ; ! "проникать"
 озгар:озгар V-TV ; ! ""
+яз:яз V-TV ; ! "писать"
 
 
 LEXICON Punctuation
