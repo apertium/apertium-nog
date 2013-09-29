@@ -38,4 +38,10 @@ Tests:
     халк<n><acc> : халкты
     халк<n><px3sp><nom> : халкы
     халк<n><px1pl><nom> : халкымыз
+
+  "[twol] irregular stem ending in к, no voicing ever":
+    ак<n><nom> : ак
+    ак<n><acc> : акты
+    ак<n><px3sp><nom> : акы
+    ак<n><px1pl><nom> : акымыз
  
