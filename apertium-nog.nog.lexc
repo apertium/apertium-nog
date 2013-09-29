@@ -17,6 +17,7 @@ Multichar_Symbols
 %<prn%>                   ! 
 %<adv%>                   ! 
 %<post%>                  ! 
+%<postadv%>               ! 
 %<cnjsub%>                ! 
 %<cnjcoo%>                ! 
 %<cnjadv%>                ! 
@@ -141,6 +142,7 @@ ProperNouns ;
 Verbs ; 
 Copula ;
 Punctuation ; 
+Postadverbs ;
 
 LEXICON CLIT 
 
@@ -586,6 +588,11 @@ LEXICON POST
 
 %<post%>: # ; 
 
+LEXICON POSTADV
+
+%<postadv%>: # ; 
+
+
 LEXICON INTERJ
 
 %<ij%>: # ; 
@@ -597,6 +604,10 @@ LEXICON Copula
 э%<cop%>%<ger_past%>:экен SUBST ; ! FIXME: Warning: will overgenerate
 э%<cop%>%<past%>:экен V-PERS-S1 ;
 э%<cop%>%<ifi%>:э%>%{D%}%{I%} V-PERS-S2 ;
+
+LEXICON Postadverbs 
+
+ок:ок POSTADV ; ! ""
 
 LEXICON Postpositions
 
