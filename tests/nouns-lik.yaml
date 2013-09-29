@@ -1,0 +1,16 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../nog.autogen.hfst
+    Morph: ../nog.automorf.hfst
+
+Tests:
+  "[twol] nom":
+    уьстинлик<n><nom> : уьстинлик
+    уьстинлик<n><pl><nom> : уьстинликлер
+
+  "[twol] dat":
+    уьстинлик<n><dat> : уьстинликке
+
+  "[twol] poss": 
+    уьстинлик<n><px1pl><nom> : уьстинлигимиз

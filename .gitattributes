@@ -18,4 +18,5 @@ speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/cases.yaml -text
+tests/nouns-lik.yaml -text
 tests/px3cases.yaml -text
