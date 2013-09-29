@@ -105,6 +105,7 @@ Multichar_Symbols
 %{I%}                     ! 'ы' или 'и'
 %{G%}                     ! 'к' или 'г'
 %{D%}                     ! 'т', 'н', или 'д'
+%{Я%}                     ! 'я', или 'е'
 !%{D²%}                    ! 'т' или 'д'
 !%{D³%}                    ! 'т', 'н', или 'д'
 %{M%}                     ! 'п', 'м', или 'б'
@@ -357,7 +358,7 @@ LEXICON V-NONFIN-REG-NEG
 %<ger%>:%>%{u%}%{ь%}в SUBST ;  ! FIXME: Will overgenerate
 %<ger_past%>:%>%{G%}%{A%}н SUBST ; ! FIXME: Will overgenerate
 %<ger1%>:%{M%}%{A%} SUBST ; ! FIXME: Will overgenerate
-%<ger_pros%>:%>%{A%}%{й%}%{A%}%{G%} SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
+%<ger_pros%>:%>%{A%}%{Я%}к SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
 
 %<prc_cond%>:%>с%{A%} CLIT ; 
 
@@ -830,6 +831,7 @@ LEXICON Nouns
 аьзирлик:аьзирлик N1 ; ! "готовность"
 амал:амал N1 ; ! ""
 уьстинлик:уьстинлик N1 ; ! ""
+акы:акы N1 ; ! "штраф"
 
 ногай:ногай N1 ; ! ""
 орыс:орыс N1 ; ! ""
@@ -1329,7 +1331,7 @@ LEXICON Adjectives
 ашык:ашык A1 ; ! "красочный"
 янъы:янъы A1 ; ! "новый"
 баска:баска A1 ; ! "прочий"
-орта:орта A1 ; ! "посредственный"
+орта:орта A1 ; ! "посредственный" FIXME
 авыр:авыр A1 ; ! "бедственный"
 осал:осал A1 ; ! "плохой"
 яхшы:яхшы A1 ; ! ""
@@ -1353,6 +1355,7 @@ LEXICON Adjectives
 эски:эски A1 ; ! ""
 киши:киши A1 ; ! ""
 тоьмен:тоьмен A1 ; ! ""
+кыйын:кыйын A1 ; ! "тежелый, твердый"
 
 
 кара:кара A1 ; ! "чёрный"
