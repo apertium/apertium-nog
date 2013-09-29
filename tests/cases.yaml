@@ -16,6 +16,11 @@ Tests:
     халк<n><pl><px3sp><nom> : халклары
     халк<n><gen> : халктынъ
     халк<n><dat> : халкка
+    авыл<n><nom> : авыл
+    авыл<n><pl><px3sp><nom> : авыллары
+    авыл<n><gen> : авылдынъ
+    авыл<n><dat> : авылга
+
 
   "[twol] Cases for potentially confusing words":
     аьдем<n><nom> : аьдем
