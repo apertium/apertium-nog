@@ -32,7 +32,7 @@ Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ      
 
 FrontVow = э е и ь ;
 
-Abstract = %{s%} %{n%} ;
+Abstract = %{s%} %{n%} %{e%} ;
 AbstractCns = %{s%} %{n%} ;
 
 
@@ -78,14 +78,14 @@ Rules
 
 
 "Vowel harmony for {A}"
-%{A%}:е <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
+%{A%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                             :Cns ь: :0* _ ;
-            [ :Cns :Cns* ]/[ :FrontVow | %{е%}:0 | :0 ] _ ;
+            [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
 
 "Vowel harmony for {I}"
-%{I%}:и <=> [ :FrontVow :Cns :Cns* ]/:0 _ ;
+%{I%}:и <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                             :Cns ь: :0* _ ;
-            [ :Cns :Cns* ]/[ :FrontVow | %{е%}:0 | :0 ] _ ;
+            [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
 
             
 ! in progress
