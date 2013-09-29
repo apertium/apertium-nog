@@ -93,8 +93,8 @@ Vx:у <=>  _ %>: %{u%}: ;
                               [ и:у | ы:у ] %>: _ ;
 
 !! TODO: Some verbs end in -уь (e.g. буьгуьв)
-!"Deletion of ь when vowel-initial stem follows"
-!ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
+"Deletion of ь when vowel-initial stem follows"
+ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
 !       except
 !             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
 
