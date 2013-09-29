@@ -47,8 +47,25 @@ AbstractCns = %{s%} %{n%} ;
 
 Rules 
 
-"Vowel harmony for {ь}"
-%{ь%}:ь <=> [ [ :э | :и | :е ] :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] [ :у | :а | :о ]  _ ;
+!"Vowel harmony for {ь}"
+!%{ь%}:ь <=> [ [ :э | :и | :е ] :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] [ :у | :а | :о ]  _ ;
+
+"Vowel harmony for {ь} (surface in front-vowel endings)"
+%{ь%}:ь <=> [ [ :FrontVow | :ь ] :Cns :Cns* ]/[ :0 - %{e%}:0 ] %{u%}:у _ ;
+            [ и:у ] %>: %{u%}:0 _ ;  ! for stems ending in и
+        !except
+            ! [ :Vow ]/[ :0 | %>: ] %{u%}:0 _ ;  ! don't insert if у is deleting
+            ! %{u%}:0 _ ;  ! don't insert if у is deleting
+
+!"и and ы delete when stem-final"  ! really, assimilation, but this works for orthography
+!Vx:0 <=>  _ %>: %{u%}: ;
+!     where Vx in ( и ы ) ;
+
+"и and ы assimilate before в when stem-final"
+Vx:у <=>  _ %>: %{u%}: ;
+     where Vx in ( и ы ) ;
+
+
 
 !"Vowel harmony for archiphoneme {A}"
 !%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] _ ;
@@ -70,14 +87,15 @@ Rules
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
 
-"Deletion of {u} after vowels"
-%{u%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
+"Deletion of {u} after vowel-final stems"
+%{u%}:0 <=> [ :Vow | [ :Vow :ь ] ]/[ :0 | %>: ] _ ;
+                              [ и:у | ы:у ] %>: _ ;
 
-! TODO: Some verbs end in -уь (e.g. буьгуьв)
-"Deletion of ь when vowel-initial stem follows"
-ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
-       except
-             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
+!! TODO: Some verbs end in -уь (e.g. буьгуьв)
+!"Deletion of ь when vowel-initial stem follows"
+!ь:0 <=> _ %>: [ :Vow ]/[ :0 ] ;
+!       except
+!             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
 
 "Passive {l} becomes n after verb stem ending in /l/"
 %{l%}:н <=> [ л :Vow ]/[ :0 | %>: ] _ ;
@@ -117,6 +135,7 @@ Rules
         except
             [ :Vow ]/[ :0 | %>: ] _ ;    ! avoid conflict with deletion after vowels
             %{n%}:н/[ :0 | %>: ] _ .#. ; ! avoid conflict with accusative deletion
+
 
 ! DOESN'T EVER HAPPEN??
 !"{L} becomes н"
