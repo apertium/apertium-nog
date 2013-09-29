@@ -112,9 +112,11 @@ Vx:у <=>  _ %>: %{u%}: ;
 "Vowel harmony for {E}"
 %{E%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                    [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+        except
+            [ :Vow (:ь) ]/:0* _ ;
 
 "{E} to й after vowel"
-%{E%}:й <=> :Vow/:0* _ ;
+%{E%}:й <=> [ :Vow (:ь) ]/:0* _ ;
 
 
 "Vowel harmony for {Я}"
