@@ -152,8 +152,14 @@ LEXICON CLIT-COP
 
 # ; 
 
+LEXICON CLIT-QST
+
+!%+ма%<qst%>:%>% %{M%}%{A%} # ;
+# ; 
+
 LEXICON CLIT-INCL-COP
 
+CLIT-QST ; 
 CLIT-COP ; 
 CLIT ; 
 
@@ -822,6 +828,7 @@ LEXICON Nouns
 табиат:табиат N1 ; ! ""
 оькимет:оькимет N1 ; ! "правительство"
 бирлик:бирлик N1 ; ! ""
+маьселе:маьселе N1 ; ! "проблема"
 
 
 яшавшы:яшавшы N1 ; ! "жилец"
