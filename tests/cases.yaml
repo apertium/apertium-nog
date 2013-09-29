@@ -8,7 +8,7 @@ Tests:
   "[twol] Cases for solidly front-vowel word":
     киси<n><nom> : киси
     киси<n><pl><px3sp><nom> : кисилери
-    киси<n><gen> : кисининъ
+    киси<n><gen> : кисидинъ
 
   "[twol] Cases for solidly back-vowel words":
     халк<n><nom> : халк

@@ -101,8 +101,9 @@ Multichar_Symbols
 %{A%}                     ! 'а' или 'е' 
 %{I%}                     ! 'ы' или 'и'
 %{G%}                     ! 'к' или 'г'
-%{D²%}                    ! 'т' или 'д'
-%{D³%}                    ! 'т', 'н', или 'д'
+%{D%}                     ! 'т', 'н', или 'д'
+!%{D²%}                    ! 'т' или 'д'
+!%{D³%}                    ! 'т', 'н', или 'д'
 %{M%}                     ! 'п', 'м', или 'б'
 %{L%}                     ! 'л' или 'н'
 %{n%}                     
@@ -153,11 +154,11 @@ CLIT ;
 LEXICON CASES 
 
 %<nom%>: CLIT-INCL-COP ; 
-%<gen%>:%>%{D³%}%{I%}нъ CLIT ; 
-%<acc%>:%>%{D²%}%{I%} CLIT ; 
+%<gen%>:%>%{D%}%{I%}нъ CLIT ; 
+%<acc%>:%>%{D%}%{I%} CLIT ; 
 %<dat%>:%>%{G%}%{A%} CLIT ; 
-%<loc%>:%>%{D²%}%{A%} CLIT-INCL-COP ; 
-%<abl%>:%>%{D³%}%{A%}н CLIT-INCL-COP ; 
+%<loc%>:%>%{D%}%{A%} CLIT-INCL-COP ; 
+%<abl%>:%>%{D%}%{A%}н CLIT-INCL-COP ; 
 
 LEXICON ATTR-SUBST
 
@@ -167,8 +168,8 @@ LEXICON ATTR-SUBST
 
 LEXICON GENPOSS-ETC 
 
-%<loc%>:%>%{D²%}%{A%}г%{I%} ATTR-SUBST ;
-%<sim%>:%>%{D²%}%{A%}й CLIT ;
+%<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
+%<sim%>:%>%{D%}%{A%}й CLIT ;
 
 LEXICON CASES-ETC
 
@@ -320,7 +321,7 @@ V-PERS-S1-NO3PERSON ;
 LEXICON V-FIN-REG-NEG
 
 %<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
-%<ifi%>:%>%{D²%}%{I%} V-PERS-S2 ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
 LEXICON V-FIN-IRREG-NEG
 
@@ -540,7 +541,7 @@ LEXICON POST
 LEXICON Copula 
 
 э%<cop%>%<past%>:экен V-PERS-S1 ;
-э%<cop%>%<ifi%>:э%>%{D²%}%{I%} V-PERS-S2 ;
+э%<cop%>%<ifi%>:э%>%{D%}%{I%} V-PERS-S2 ;
 
 LEXICON Postpositions
 
