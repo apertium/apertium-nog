@@ -10,7 +10,7 @@ Alphabet
  %{D%}:д
 ! %{D²%}:д %{D²%}:т
 ! %{D³%}:д %{D³%}:т %{D³%}:н
- %{G%}:к  %{G%}:г
+ %{G%}:к
  %{M%}:м  %{M%}:б  %{M%}:п
  %{l%}:л  %{l%}:н
  %{s%}:с 
@@ -64,9 +64,6 @@ Rules
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
 
-"Deletion of {n} before genitive {D}{I}"
-%{n%}:0 <=>  _ %>: %{D%}: %{I%}: :н :ъ ;
-
 
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
@@ -94,8 +91,8 @@ Rules
                             :Cns ь: :0* _ ;
             [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
         except
-            [ :Vow ]/[ :0 | %>: ] _ ;   ! avoid conflict with deletion after vowels
-            %{n%}:н/[ :0 | %>: ] _ ;    ! avoid conflict with accusative deletion
+            [ :Vow ]/[ :0 | %>: ] _ ;    ! avoid conflict with deletion after vowels
+            %{n%}:н/[ :0 | %>: ] _ .#. ; ! avoid conflict with accusative deletion
 
 ! DOESN'T EVER HAPPEN??
 !"{L} becomes н"
@@ -116,16 +113,30 @@ Rules
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/:0 _ ;
-          where Cx in ( %{M%}  %{D%} )
-                Cy in (   п      т   )
-                matched;
+      except
+          %{n%}: %>: _ %{I%}: .#. ;
+          %{n%}: %>: _ %{I%}: :н :ъ .#. ;
+      where Cx in ( %{M%} %{D%} %{G%} )
+          Cy in (   п     т     к   )
+          matched;
+
 
 "{D} Nasal harmony"
 %{D%}:н <=> :Nasals/:0 _ :Vow :Nasals ;
+        except
+            %{n%}: %>: _ %{I%}: .#. ;
+            %{n%}: %>: _ %{I%}: :н :ъ .#. ;
 
-"Deletion of accusative {D} after {n}"
+
+"Deletion of accusative and genitive {D} after {n}"
 %{D%}:0 <=> %{n%}: %>: _ %{I%}: .#. ;
-            %{n%}: %>: _ %{I%}: %  ;
+            %{n%}: %>: _ %{I%}: :н :ъ .#. ;
+
+!"Deletion of {n} before genitive {D}{I}"
+!%{n%}:0 <=>  _ %>: %{D%}: %{I%}: :н :ъ ;
 
 "Deletion of {I} after {n} for px3.acc"
-%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ ;
+%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ .#. ;
+
+"Deletion of dative {G} after px1sg, px2sg"
+%{G%}:0 <=>  %{I%}: :Nasals %>: _ %{A%}: .#. ;
