@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../nog.autogen.hfst
+    Morph: ../nog.automorf.hfst
+
+Tests:
+  "[twol] stems ending in к, contexts where voicing doesn't occur":
+    суьек<n><nom> : суьек
+    терек<n><nom> : терек
+    суьек<n><acc> : суьекти
+    терек<n><acc> : теректи
+    суьек<n><abl> : суьектен
+    терек<n><abl> : теректен
+
+  "[twol] stems ending in к, contexts where voicing does occur":
+    суьек<n><px3sp><nom> : суьеги
+    терек<n><px3sp><nom> : тереги
+    суьек<n><px1sg><nom> : суьегим
+    терек<n><px1sg><nom> : терегим
+
+  "[twol] stems ending in Cк, no voicing ever":
+    халк<n><nom> : халк
+    халк<n><acc> : халкты
+    халк<n><px3sp><nom> : халкы
+    халк<n><px1pl><nom> : халкымыз
+ 
