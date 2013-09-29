@@ -52,3 +52,9 @@ Tests:
     руль<n><gen> : рульдинъ
     руль<n><px3sp><acc> : рулин
 
+  "[twol] Russian words ending in 'voiced' consonants":
+    съезд<n><nom> : съезд
+    съезд<n><pl><px3sp><nom> : съездлери
+    съезд<n><gen> : съездтинъ
+    съезд<n><dat> : съездке
+ 
