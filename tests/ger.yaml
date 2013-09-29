@@ -7,8 +7,10 @@ Config:
 Tests:
   "[twol] verb stems with front vowels":
     туьз<v><tv><ger><nom> : туьзуьв
+    буьгуь<v><tv><ger><nom> : буьгуьв
 
   "[twol] verb stems with back vowels":
     бол<v><iv><ger><nom> : болув
     ок<v><tv><ger><nom> : окув
+    ата<v><tv><ger><nom> : атав
 
