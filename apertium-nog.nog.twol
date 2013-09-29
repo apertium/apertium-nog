@@ -93,6 +93,9 @@ Rules
 %{I%}:и <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                             :Cns ь: :0* _ ;
             [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+        except
+            [ :Vow ]/[ :0 | %>: ] _ ;   ! avoid conflict with deletion after vowels
+            %{n%}:н/[ :0 | %>: ] _ ;    ! avoid conflict with accusative deletion
 
 ! DOESN'T EVER HAPPEN??
 !"{L} becomes н"
@@ -119,3 +122,10 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 
 "{D} Nasal harmony"
 %{D%}:н <=> :Nasals/:0 _ :Vow :Nasals ;
+
+"Deletion of accusative {D} after {n}"
+%{D%}:0 <=> %{n%}: %>: _ %{I%}: .#. ;
+            %{n%}: %>: _ %{I%}: %  ;
+
+"Deletion of {I} after {n} for px3.acc"
+%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ ;
