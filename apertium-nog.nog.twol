@@ -15,6 +15,7 @@ Alphabet
  %{l%}:л  %{l%}:н
  %{s%}:с 
  %{n%}:н
+ %{й%}:0
  %{ь%}:0
  %{e%}:0
 
@@ -86,6 +87,13 @@ Rules
                             :Cns ь: :0* _ ;
             [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
 
+! TODO: Check this rule -{A}{й}{A}{G}
+"Yotised vowel in suffix "
+%{A%}:Vx <=> :Vy %{й%}: _ ;
+        where Vy in ( а  е )
+              Vx in ( я  е )
+        matched;
+
 "Vowel harmony for {I}"
 %{I%}:и <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                             :Cns ь: :0* _ ;
@@ -143,3 +151,4 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 
 "Default {G}"
 %{G%}:к <=> _ .#. ; 
+
