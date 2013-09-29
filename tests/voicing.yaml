@@ -19,6 +19,20 @@ Tests:
     суьек<n><px1sg><nom> : суьегим
     терек<n><px1sg><nom> : терегим
 
+  "[twol] stems ending in п, contexts where voicing doesn't occur":
+    китап<n><nom> : китап
+    эсап<n><nom> : эсап
+    китап<n><acc> : китапти
+    эсап<n><acc> : эсапты
+    китап<n><abl> : китаптен
+    эсап<n><abl> : эсаптан
+
+  "[twol] stems ending in п, contexts where voicing does occur":
+    китап<n><px3sp><nom> : китаби
+    эсап<n><px3sp><nom> : эсабы
+    китап<n><px1sg><acc> : китабимди
+    эсап<n><px1sg><acc> : эсабымды
+
   "[twol] stems ending in Cк, no voicing ever":
     халк<n><nom> : халк
     халк<n><acc> : халкты
