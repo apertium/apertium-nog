@@ -33,9 +33,9 @@ Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ      
       б в г д ж з й к л м н п р с т ф х ц ч ш щ ь ъ        ! нъ
       %{L%} %{G%} %{M%} %{D%} %{s%} %{n%} %{l%} ;  ! 
 
-VoicelessCns = п ф т с ч ш к х ;
+VoicelessCns = п б ф т д с ч ш к г х ;
 
-VoicedObstruents = б д з ж г ;
+VoicedObstruents = з ж ;
 
 FrontVow = э е и ь ;
 
