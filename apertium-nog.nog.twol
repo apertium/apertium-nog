@@ -87,9 +87,12 @@ Rules
 %{A%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
                                           :Cns ь: :0* _ ;
                    [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+        except
+       [ [ :Vow - :FrontVow ] :Cns* й: ]/[ :0 - й:0 ] _ ; ! avoid conflict with {A}:я
+
 
 "Vowel harmony for {Я}"
-%{Я%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+%{Я%}:е <=> [ :FrontVow :Cns* ]/[ :0 - %{e%}:0 ] _ ;
 ! the following can be uncommented if needed
 !                                          :Cns ь: :0* _ ;
 !                   [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
@@ -100,11 +103,11 @@ Rules
 !        where Vy in ( а  е )
 !              Vx in ( я  е )
 !        matched;
-"{A} becomes я after stems in й"
-%{A%}:я <=> й:/[ :0 - й:0 ] _ ;
+"{A} becomes я in back vowel contexts after stems in й"
+%{A%}:я <=> [ [ :Vow - :FrontVow ] :Cns* й: ]/[ :0 - й:0 ] _ ;
 
-"й deletes when the following {A} turns to я"
-й:0 <=> _ (:0) %{A%}:я ;
+"й deletes before {A}"
+й:0 <=> _ :0* %{A%}:я ;
 
 
 "Vowel harmony for {I}"
