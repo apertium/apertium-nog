@@ -20,6 +20,7 @@ speller/words.default.txt -text
 tests/cases.yaml -text
 tests/ger.yaml -text
 tests/nouns-lik.yaml -text
+tests/np-cog-ov.yaml -text
 tests/px3cases.yaml -text
 tests/voicing.yaml -text
 tests/ya.yaml -text
