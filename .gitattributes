@@ -21,3 +21,4 @@ tests/cases.yaml -text
 tests/nouns-lik.yaml -text
 tests/px3cases.yaml -text
 tests/voicing.yaml -text
+tests/ya.yaml -text
