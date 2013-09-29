@@ -21,8 +21,8 @@
 
   <mode name="nog-lexc">
     <pipeline>
-      <program name="hfst-proc -g">
-        <file name=".deps/nog.lexc.hfst"/>
+      <program name="hfst-lookup">
+        <file name=".deps/nog.LR.lexc.hfst"/>
       </program>
     </pipeline>
   </mode>
