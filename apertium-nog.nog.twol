@@ -6,11 +6,11 @@ Alphabet
  %{A%}:а
  %{u%}:у
  %{I%}:ы
- %{L%}:л 
+ %{L%}:л
  %{D%}:д
 ! %{D²%}:д %{D²%}:т
 ! %{D³%}:д %{D³%}:т %{D³%}:н
- %{G%}:к  
+ %{G%}:к  %{G%}:г
  %{M%}:м  %{M%}:б  %{M%}:п
  %{l%}:л  %{l%}:н
  %{s%}:с 
@@ -19,7 +19,6 @@ Alphabet
  %{e%}:0
 
  % 
- %-
  
  %>:0  ;
 
@@ -112,14 +111,14 @@ Rules
 !            except
 !                                    :Nasals %>: _ Vow :Nasals ;
 
-!"Forward voicing assimilation"
-!Cx:Cy <=> :VoicelessCns/:0 _ ;
-!      except
-!          %{n%}: %>: _ %{I%}: .#. ;
-!          %{n%}: %>: _ %{I%}: :н :ъ .#. ;
-!      where Cx in ( %{M%} %{D%} %{G%} )
-!          Cy in (   п     т     к   )
-!          matched;
+"Forward voicing assimilation"
+Cx:Cy <=> :VoicelessCns/:0 _ ;
+      except
+          %{n%}: %>: _ %{I%}: .#. ;
+          %{n%}: %>: _ %{I%}: :н :ъ .#. ;
+      where Cx in ( %{M%} %{D%} %{G%} )
+          Cy in (   п     т     к   )
+          matched;
 
 
 "{D} Nasal harmony"
@@ -139,9 +138,8 @@ Rules
 "Deletion of {I} after {n} for px3.acc"
 %{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ .#. ;
 
-!"Deletion of dative {G} after px1sg, px2sg"
-!%{G%}:0 <=>  %{I%}: :Nasals %>: _ %{A%}: .#. ;
+"Deletion of dative {G} after px1sg, px2sg"
+%{G%}:0 <=>  %{I%}: :Nasals %>: _ %{A%}: .#. ;
 
-! патшалы{G} → патшалык
-"Default value for {G}"
+"Default {G}"
 %{G%}:к <=> _ .#. ; 
