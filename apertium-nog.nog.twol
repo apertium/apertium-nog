@@ -4,6 +4,7 @@ Alphabet
  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 
  %{A%}:а
+ %{E%}:а
  %{u%}:у
  %{I%}:ы
  %{L%}:л
@@ -107,6 +108,13 @@ Vx:у <=>  _ %>: %{u%}: ;
                    [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
         except
        [ [ :Vow - :FrontVow ] :Cns* й: ]/[ :0 - й:0 ] _ ; ! avoid conflict with {A}:я
+
+"Vowel harmony for {E}"
+%{E%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+                   [ %{e%}:0 :Cns* ]/[ :0 - %{e%}:0 ] _ ;
+
+"{E} to й after vowel"
+%{E%}:й <=> :Vow/:0* _ ;
 
 
 "Vowel harmony for {Я}"

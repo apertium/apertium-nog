@@ -117,6 +117,7 @@ Multichar_Symbols
 %{l%}
 %{e%}                     ! forces front VH
 %{❗%}
+%{E%}
 
 %> 
 % 
@@ -349,7 +350,7 @@ LEXICON V-FIN-REG-NEG
 
 LEXICON V-FIN-IRREG-NEG
 
-%<aor%>:%>%{A%} V-PERS-AOR ;
+%<aor%>:%>%{E%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>%{M%}%{A%}й V-PERS-AOR ; ! FIXME
 
 %<fut%>:%>%{A%}р V-PERS-S1 ;
