@@ -21,6 +21,7 @@ Alphabet
  %{e%}:0
  %{Я%}:я
  %{❗%}:0
+ %{☭%}:0
  % 
  
  %>:0  ;
@@ -34,7 +35,7 @@ Cns = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ      
       б в г д ж з й к л м н п р с т ф х ц ч ш щ ь ъ        ! нъ
       %{L%} %{G%} %{M%} %{D%} %{s%} %{n%} %{l%} ;  ! 
 
-VoicelessCns = п б ф в т д с ч ш к г х ;
+VoicelessCns = п б ф т д с ч ш к г х ;
 
 VoicedObstruents = з ж ;
 
@@ -165,10 +166,11 @@ Vx:у <=>  _ %>: %{u%}: ;
 !                                    :Nasals %>: _ Vow :Nasals ;
 
 "Forward voicing assimilation"
-Cx:Cy <=> :VoicelessCns/:0 _ ;
+Cx:Cy <=> :VoicelessCns/[ :0 - %{☭%}:0 ] _ ;
       except
           %{n%}: %>: _ %{I%}: .#. ;
           %{n%}: %>: _ %{I%}: :н :ъ .#. ;
+          
       where Cx in ( %{M%} %{D%} %{G%} )
             Cy in (   п     т     к   )
           matched;

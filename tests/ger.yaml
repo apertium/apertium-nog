@@ -13,4 +13,7 @@ Tests:
     бол<v><iv><ger><nom> : болув
     окы<v><tv><ger><nom> : окув
     ата<v><tv><ger><nom> : атав
+    яша<v><iv><ger><nom> : яшав
 
+  "[twol] some case forms of <ger>":
+    яша<v><iv><ger><dat> : яшавга
