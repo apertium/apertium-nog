@@ -23,6 +23,7 @@ tests/ger.yaml -text
 tests/ger1.yaml -text
 tests/l-stuff.yaml -text
 tests/misc-nonfin-v.yaml -text
+tests/neg-ger-pros.yaml -text
 tests/noun-mz-final.yaml -text
 tests/nouns-lik.yaml -text
 tests/np-cog-ov.yaml -text
