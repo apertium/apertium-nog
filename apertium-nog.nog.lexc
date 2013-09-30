@@ -70,6 +70,7 @@ Multichar_Symbols
 %<tv%>                    ! 
 
 %<pass%>                  ! 
+%<coop%>                  ! 
 %<caus%>                  ! 
 
 %<neg%>                   ! 
@@ -403,14 +404,19 @@ V-NONFIN-REG-NEG ;
 
 V-NONFIN-IRREG-NEG ; 
 
+LEXICON V-DER
+
+%<coop%>:%>%{I%}с V-COMMON ;
 
 LEXICON V-IV 
 
 %<v%>%<iv%>: V-COMMON ; 
+%<v%>%<iv%>: V-DER ; 
 
 LEXICON V-TV
 
 %<v%>%<tv%>: V-COMMON ; 
+%<v%>%<tv%>: V-DER ; 
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON ;
 
 LEXICON PRON-MEN
@@ -1525,6 +1531,7 @@ LEXICON Adjectives
 йогары:йогары A1 ; ! ""
 хош:хош A1 ; ! "добрый"
 аян:аян A1 ; ! "ясный"
+аьруьв:аьруьв A1 ; ! ""
 
 
 кара:кара A1 ; ! "чёрный"
@@ -1587,6 +1594,7 @@ LEXICON Adjectives
 куьшли:куьшли A4 ; ! ""
 куватлы:куватлы A4 ; ! ""
 сыйлы:сыйлы A4 ; ! "уважаемый"
+белгили:белгили A4 ; ! ""
 
 LEXICON Adverbs 
 
@@ -1736,6 +1744,10 @@ LEXICON Verbs
 сен:сен V-IV ; ! ""
 суьй:суьй V-TV ; ! ""
 оьл:оьл V-IV ; ! "губнить"
+билимлен:билимлен V-IV ; ! ""
+билимлендир:билимлендир V-TV ; ! "" (caus)
+кабыл% ал:кабыл% ал V-TV ; ! ""
+
 
 LEXICON Interjections 
 
