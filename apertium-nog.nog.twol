@@ -166,7 +166,8 @@ Vx:у <=>  _ %>: %{u%}: ;
 !                                    :Nasals %>: _ Vow :Nasals ;
 
 "Forward voicing assimilation"
-Cx:Cy <=> :VoicelessCns/[ :0 - %{☭%}:0 ] _ ;
+Cx:Cy <=> :VoicelessCns/:0 _ ;
+          [ :в %{☭%}:0 ] /[ :0 - %{☭%}:0 ] _ ;
       except
           %{n%}: %>: _ %{I%}: .#. ;
           %{n%}: %>: _ %{I%}: :н :ъ .#. ;
