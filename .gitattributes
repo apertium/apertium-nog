@@ -20,6 +20,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/cases.yaml -text
 tests/ger.yaml -text
+tests/ger1.yaml -text
 tests/l-stuff.yaml -text
 tests/misc-nonfin-v.yaml -text
 tests/noun-mz-final.yaml -text
