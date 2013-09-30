@@ -386,14 +386,14 @@ LEXICON V-NONFIN-REG-NEG
 %<ger_past%>:%>%{G%}%{A%}н SUBST ; ! FIXME: Will overgenerate
 %<ger1%>:%{M%}%{A%} SUBST ; ! FIXME: Will overgenerate
 %<ger_pros%>:%>%{A%}%{Я%}к SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
-%<ger_impf%>:%>%{E%}т%{A%}%{G%}%{A%}н SUBST ; ! FIXME: Will overgenerate
+%<ger_impf%>:%>%{E%}таган SUBST ; ! FIXME: Will overgenerate
 
 %<prc_cond%>:%>с%{A%} CLIT ; 
 
 %<gna_cond%>:%>с%{A%} CLIT ;
 
 %<gpr_past%>:%>%{G%}%{A%}н # ;
-%<gpr_impf%>:%>%{E%}т%{A%}%{G%}%{A%}н # ;
+%<gpr_impf%>:%>%{E%}таган # ;
 
 %<imp%>%<p2%>%<sg%>: CLIT ;
 
@@ -1118,6 +1118,8 @@ LEXICON Nouns
 кыянатлык:кыянатлык N1 ; ! "измена"
 шалув:шалув N1 ; ! "тесёмка"
 аслык:аслык N1 ; ! "хлеб"
+себеплик:себеплик N1 ; ! ""
+дереже:дереже N1 ; ! ""
 
 
 кереклик:кереклик N1 ; ! "потребность"
