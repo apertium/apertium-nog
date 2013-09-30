@@ -1,0 +1,11 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../nog.autogen.hfst
+    Morph: ../nog.automorf.hfst
+
+Tests:
+  "[twol] aorist forms with jot":
+    суьй<v><tv><aor><p1><sg> : суьемен
+
+

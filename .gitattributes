@@ -21,6 +21,7 @@ speller/words.default.txt -text
 tests/cases.yaml -text
 tests/ger.yaml -text
 tests/ger1.yaml -text
+tests/jot-phon.yaml -text
 tests/l-stuff.yaml -text
 tests/misc-nonfin-v.yaml -text
 tests/neg-ger-pros.yaml -text
