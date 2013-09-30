@@ -123,6 +123,7 @@ Multichar_Symbols
 %{l%}
 %{e%}                     ! forces front VH
 %{❗%}
+%{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
 %{E%}
 
 %> 
@@ -279,7 +280,7 @@ LEXICON NP-COG-OVA
 
 LEXICON NP-COG-OV
 
-%<np%>%<cog%>%<m%>: NP-COMMON ;  
+%<np%>%<cog%>%<m%>:%{☭%} NP-COMMON ;  
 NP-COG-OVA ; 
 
 LEXICON NP-COG-IN
