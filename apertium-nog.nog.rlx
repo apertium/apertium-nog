@@ -7,9 +7,10 @@ LIST BOS = (>>>) (sent);
 LIST EOS = (<<<) (sent);
 
 LIST N = n ; 
+LIST Post = post ; 
 
 SECTION
 
 
-SELECT (y) ;
-
+REMOVE Post if (-1 BOS);
+    ## Мен сизди анъламадым.
