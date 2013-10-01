@@ -28,6 +28,7 @@ tests/neg-ger-pros.yaml -text
 tests/noun-mz-final.yaml -text
 tests/nouns-lik.yaml -text
 tests/np-cog-ov.yaml -text
+tests/pbw.yaml -text
 tests/px3cases.yaml -text
 tests/voicing.yaml -text
 tests/ya.yaml -text

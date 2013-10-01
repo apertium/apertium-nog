@@ -192,11 +192,9 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
       except
           %{n%}: %>: _ %{I%}: .#. ;
           %{n%}: %>: _ %{I%}: :н :ъ .#. ;
-          
       where Cx in ( %{M%} %{D%} %{G%} )
             Cy in (   п     т     к   )
           matched;
-
 
 "{D} Nasal harmony"
 %{D%}:н <=> :Nasals/:0 _ :Vow :Nasals ;
@@ -222,6 +220,15 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
           except
             %{❗%}:0 _ ;
+                    _ :0* %{I%}: :п ;
           where Cx in ( п к )
                 Cy in ( б г )
                 matched;
+
+"Lenition of п to в"
+п:в <=> _ :0* %{I%}: :п ;
+
+"Voicing of к in context where п doesn't simply voice"
+к:г <=> _ :0* %{I%}: :п ;
+
+
