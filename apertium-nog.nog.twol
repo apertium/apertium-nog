@@ -116,7 +116,7 @@ Vx:у <=>  _ %>: %{u%}: ;
                      [ :Vow :ь й:0 ]/[ :0 - %{e%}:0 ] _ ;
         except
        [ [ :Vow - :FrontVow ] :Cns* й: ]/[ :0 - й:0 ] _ ; ! avoid conflict with {A}:я
-                                [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ; ! avoid conflict with {A}:0
+                      [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ; ! avoid conflict with {A}:0
 
 "Vowel harmony for {E}"
 %{E%}:е <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{e%}:0 ] _ ;
@@ -148,8 +148,8 @@ Vx:у <=>  _ %>: %{u%}: ;
 "{A} becomes я in back vowel contexts after stems in й"
 %{A%}:я <=> [ [ :Vow - :FrontVow ] :Cns* й: ]/[ :0 - й:0 ]* _ ;
         except
-            [ :Vow :ь й:* ]/:0 _ ;
-         [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ; ! don't {A}:я when {A} should :0
+                                         [ :Vow :ь й:* ]/:0 _ ;
+                            [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ; ! don't {A}:я when {A} should :0
 
 "{E} becomes я in back vowel contexts after stems in й"
 %{E%}:я <=> [ [ :Vow - :FrontVow ] [ :Cns - :ь ]* й: ]/[ :0 - й:0 ]* _ ;
