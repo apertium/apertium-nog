@@ -12,7 +12,7 @@ Alphabet
 ! %{D²%}:д %{D²%}:т
 ! %{D³%}:д %{D³%}:т %{D³%}:н
  %{G%}:г
- %{M%}:м  %{M%}:б  %{M%}:п
+ %{M%}:м
  %{l%}:л  %{l%}:н
  %{s%}:с 
  %{y%}:ы
@@ -176,7 +176,9 @@ Vx:у <=>  _ %>: %{u%}: ;
             
 ! in progress
 "{M} desonorisation rule"
-%{M%}:б <=> [ [ :Nasals (:ъ) ] | :VoicedObstruents ] :0* _ ;
+%{M%}:б <=> :VoicedObstruents :0* _ ;
+!           this is the old rule, but it seems the generalisation about nasals is wrong
+!           [ [ :Nasals (:ъ) ] | :VoicedObstruents ] :0* _ ;
         except
             :Nasals/:0 _ :Vow :Nasals ;
 !
