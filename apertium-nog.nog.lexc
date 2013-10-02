@@ -404,7 +404,7 @@ LEXICON V-NONFIN-REG-NEG
 
 %<ger%>:%>%{u%}%{ь%}в SUBST ;  ! FIXME: Will overgenerate
 %<ger_past%>:%>%{G%}%{A%}н SUBST ; ! FIXME: Will overgenerate
-%<ger1%>:%{M%}%{A%} SUBST ; ! FIXME: Will overgenerate
+%<ger1%>:%>%{M%}%{A%} SUBST ; ! FIXME: Will overgenerate
 %<ger_pros%>:%>%{A%}%{Я%}к SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
 %<ger_impf%>:%>%{E%}таган SUBST ; ! FIXME: Will overgenerate
 
@@ -1608,6 +1608,7 @@ LEXICON ProperNouns
 Казмагомед:Казмагомед NP-ANT-M ; ! ""
 Толя:Толя NP-ANT-M ; ! ""
 
+Юрий:Юрий NP-ANT-M ; ! ""
 Андрей:Андрей NP-ANT-M ; ! ""
 Александр:Александр NP-ANT-M ; ! ""
 Сергей:Сергей NP-ANT-M ; ! ""
