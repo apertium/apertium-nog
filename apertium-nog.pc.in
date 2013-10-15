@@ -1,6 +1,8 @@
 prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
+dir=@libdir@/apertium/apertium-nog
+srcdir=@datarootdir@/apertium/apertium-nog
 
 Name: apertium-nog
 Description: Finite-state morphological transducer and constraint grammar for Nogay 
