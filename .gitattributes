@@ -5,10 +5,10 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-nog-0.1.pc.in -text
 /apertium-nog.nog.lexc -text
 /apertium-nog.nog.rlx -text
 /apertium-nog.nog.twol -text
+/apertium-nog.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
