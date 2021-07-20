@@ -1,0 +1,24 @@
+[2WYuTAkLbXkk#0] ^районынынъ/район<n><px3sp><gen>$
+[/2WYuTAkLbXkk]
+[3aNrVEeROGun#0] ^иси/ис<n><px3sp><nom>$
+[/3aNrVEeROGun]
+[Luigy22Xp9jC#0] ^районын/район<n><px3sp><acc>$
+[/Luigy22Xp9jC]
+[W0EYnJt7dy7U#0] ^районына/район<n><px3sp><dat>$
+[/W0EYnJt7dy7U]
+[ZoUvWReQQBk7#0] ^исинде/ис<n><px3sp><loc>$
+[/ZoUvWReQQBk7]
+[bYPBFHnDE3EQ#0] ^исине/ис<n><px3sp><dat>$
+[/bYPBFHnDE3EQ]
+[bkgkLt4sSath#0] ^районыннан/район<n><px3sp><abl>$
+[/bkgkLt4sSath]
+[clI4seISQfja#0] ^районында/район<n><px3sp><loc>$
+[/clI4seISQfja]
+[lrTNxNhBt3jy#0] ^исин/ис<n><px3sp><acc>$
+[/lrTNxNhBt3jy]
+[mn5v5MWm5cbL#0] ^исининъ/ис<n><px3sp><gen>$
+[/mn5v5MWm5cbL]
+[rMUNri-jPOKF#0] ^районы/район<n><px3sp><nom>$
+[/rMUNri-jPOKF]
+[rtVnMadnzcTO#0] ^исиннен/ис<n><px3sp><abl>$
+[/rtVnMadnzcTO]

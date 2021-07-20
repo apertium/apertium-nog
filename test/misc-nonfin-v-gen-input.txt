@@ -1,0 +1,3 @@
+# [twol] miscellaneous non-fin verb forms
+^тув<v><iv><ger_past><nom>$
+^яша<v><iv><ger><dat>$

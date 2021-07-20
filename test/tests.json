@@ -1,0 +1,114 @@
+{
+  "cases": {
+    "input": "cases-input.txt",
+    "mode": "nog-morph"
+  },
+  "cases-gen": {
+    "input": "cases-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "ger": {
+    "input": "ger-input.txt",
+    "mode": "nog-morph"
+  },
+  "ger-gen": {
+    "input": "ger-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "ger1": {
+    "input": "ger1-input.txt",
+    "mode": "nog-morph"
+  },
+  "ger1-gen": {
+    "input": "ger1-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "jot-phon": {
+    "input": "jot-phon-input.txt",
+    "mode": "nog-morph"
+  },
+  "jot-phon-gen": {
+    "input": "jot-phon-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "l-stuff": {
+    "input": "l-stuff-input.txt",
+    "mode": "nog-morph"
+  },
+  "l-stuff-gen": {
+    "input": "l-stuff-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "misc-nonfin-v": {
+    "input": "misc-nonfin-v-input.txt",
+    "mode": "nog-morph"
+  },
+  "misc-nonfin-v-gen": {
+    "input": "misc-nonfin-v-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "neg-ger-pros": {
+    "input": "neg-ger-pros-input.txt",
+    "mode": "nog-morph"
+  },
+  "neg-ger-pros-gen": {
+    "input": "neg-ger-pros-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "noun-mz-final": {
+    "input": "noun-mz-final-input.txt",
+    "mode": "nog-morph"
+  },
+  "noun-mz-final-gen": {
+    "input": "noun-mz-final-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "nouns-lik": {
+    "input": "nouns-lik-input.txt",
+    "mode": "nog-morph"
+  },
+  "nouns-lik-gen": {
+    "input": "nouns-lik-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "np-cog-ov": {
+    "input": "np-cog-ov-input.txt",
+    "mode": "nog-morph"
+  },
+  "np-cog-ov-gen": {
+    "input": "np-cog-ov-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "pbw": {
+    "input": "pbw-input.txt",
+    "mode": "nog-morph"
+  },
+  "pbw-gen": {
+    "input": "pbw-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "px3cases": {
+    "input": "px3cases-input.txt",
+    "mode": "nog-morph"
+  },
+  "px3cases-gen": {
+    "input": "px3cases-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "voicing": {
+    "input": "voicing-input.txt",
+    "mode": "nog-morph"
+  },
+  "voicing-gen": {
+    "input": "voicing-gen-input.txt",
+    "mode": "nog-gener"
+  },
+  "ya": {
+    "input": "ya-input.txt",
+    "mode": "nog-morph"
+  },
+  "ya-gen": {
+    "input": "ya-gen-input.txt",
+    "mode": "nog-gener"
+  }
+}

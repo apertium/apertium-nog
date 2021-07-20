@@ -1,0 +1,80 @@
+[08Z46JSpEg6B#0] ^авыл/авыл<n><nom>/авыл<n><attr>$
+[/08Z46JSpEg6B]
+[0ffFSB8x0xUF#0] ^киси/киси<n><nom>/киси<n><attr>$
+[/0ffFSB8x0xUF]
+[1Pmu6OkRkms4#0] ^уьйдинъ/уьй<n><gen>$
+[/1Pmu6OkRkms4]
+[5LkWqNVCUZCc#0] ^съездке/съезд<n><dat>$
+[/5LkWqNVCUZCc]
+[5qtzShnQE5Th#0] ^рульдинъ/руль<n><gen>$
+[/5qtzShnQE5Th]
+[952tG066yAWx#0] ^авылга/авыл<n><dat>$
+[/952tG066yAWx]
+[BoV4GUfNy0CE#0] ^кисилери/киси<n><px3pl><nom>/киси<n><pl><px3sp><nom>$
+[/BoV4GUfNy0CE]
+[CFTdEFdfR6Xq#0] ^халкка/халк<n><dat>$
+[/CFTdEFdfR6Xq]
+[CgBW-pvl_Zg9#0] ^аьдемнинъ/аьдем<n><gen>$
+[/CgBW-pvl_Zg9]
+[ICxAshVZEqZO#0] ^халк/халк<n><nom>/халк<n><attr>$
+[/ICxAshVZEqZO]
+[ILblsTCBKFmr#0] ^юздинъ/юз<n><gen>/юз<num><subst><gen>$
+[/ILblsTCBKFmr]
+[IZ0HAUTft261#0] ^китап/китап<n><nom>/китап<n><attr>$
+[/IZ0HAUTft261]
+[MqmKI07cljIZ#0] ^кисиге/киси<n><dat>$
+[/MqmKI07cljIZ]
+[OzA96m9KvS57#0] ^уьйлери/уьй<n><px3pl><nom>/уьй<n><pl><px3sp><nom>$
+[/OzA96m9KvS57]
+[QPRV_f5NQQvv#0] ^аьдемлери/аьдем<n><px3pl><nom>/аьдем<n><pl><px3sp><nom>$
+[/QPRV_f5NQQvv]
+[S3EEQhyRbGSy#0] ^уьйге/уьй<n><dat>$
+[/S3EEQhyRbGSy]
+[TM40rnvXtA9b#0] ^съездтинъ/съезд<n><gen>$
+[/TM40rnvXtA9b]
+[Ta4BQFJSpji2#0] ^аьдем/аьдем<n><nom>/аьдем<n><attr>$
+[/Ta4BQFJSpji2]
+[UodSVNR1akt3#0] ^автомобиль/*автомобиль$
+[/UodSVNR1akt3]
+[Uw4r3EqMgYP0#0] ^кисидинъ/киси<n><gen>$
+[/Uw4r3EqMgYP0]
+[Vcbqu52Z6_Os#0] ^китаплери/китап<n><px3pl><nom>/китап<n><pl><px3sp><nom>$
+[/Vcbqu52Z6_Os]
+[WNwRQIiI4tBa#0] ^съездлери/съезд<n><px3pl><nom>/съезд<n><pl><px3sp><nom>$
+[/WNwRQIiI4tBa]
+[WW_1XTjfXbtT#0] ^рулин/руль<n><px3sp><acc>$
+[/WW_1XTjfXbtT]
+[WmtBU0sUx9xH#0] ^халклары/халк<n><px3pl><nom>/халк<n><pl><px3sp><nom>$
+[/WmtBU0sUx9xH]
+[WsTRdQZ9Z0vm#0] ^автомобильдер/*автомобильдер$
+[/WsTRdQZ9Z0vm]
+[dbjrtuMKWm4M#0] ^юзлери/юз<n><px3pl><nom>/юз<num><subst><px3pl><nom>/юз<n><pl><px3sp><nom>/юз<num><subst><pl><px3sp><nom>$
+[/dbjrtuMKWm4M]
+[dxgvH29yYCgl#0] ^халктынъ/халк<n><gen>$
+[/dxgvH29yYCgl]
+[dxkXbamACCsR#0] ^авыллары/авыл<n><px3pl><nom>/авыл<n><pl><px3sp><nom>$
+[/dxkXbamACCsR]
+[jy6v1gHqQExb#0] ^уьй/уьй<n><nom>/уьй<n><attr>$
+[/jy6v1gHqQExb]
+[kIq7t46mj5r3#0] ^китаптинъ/китап<n><gen>$
+[/kIq7t46mj5r3]
+[knlj69FXCGrN#0] ^авылдынъ/авыл<n><gen>$
+[/knlj69FXCGrN]
+[lo5EcCCNO9Ju#0] ^съезд/съезд<n><nom>/съезд<n><attr>$
+[/lo5EcCCNO9Ju]
+[nBpoOT9H9Rm-#0] ^аьдемге/аьдем<n><dat>$
+[/nBpoOT9H9Rm-]
+[nO5KbZzZEt6a#0] ^китапке/китап<n><dat>$
+[/nO5KbZzZEt6a]
+[oGvz4viEyfYj#0] ^руль/руль<n><nom>/руль<n><attr>$
+[/oGvz4viEyfYj]
+[p2EShWuSQ0KV#0] ^автомобильдинъ/*автомобильдинъ$
+[/p2EShWuSQ0KV]
+[qApTCIke1-aC#0] ^юзге/юз<n><dat>/юз<num><subst><dat>$
+[/qApTCIke1-aC]
+[vHpoj_kg9zqN#0] ^юз/юз<num>/юз<n><nom>/юз<n><attr>/юз<num><subst><nom>$
+[/vHpoj_kg9zqN]
+[yZSgLSrUCaGS#0] ^автомобилин/*автомобилин$
+[/yZSgLSrUCaGS]
+[zeL3Vb1b4Ndg#0] ^рульдер/*рульдер$
+[/zeL3Vb1b4Ndg]

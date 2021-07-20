@@ -1,0 +1,7 @@
+# [twol] voicing of stem-final п
+^тап<v><tv><aor><p1><sg>$
+# [twol] voicing and further lenition of stem-final п
+^тап<v><tv><prc_perf>$
+# [twol] voicing of stem-final к
+^шык<v><iv><aor><p1><sg>$
+^шык<v><iv><prc_perf>$

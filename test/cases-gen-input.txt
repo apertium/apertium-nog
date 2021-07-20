@@ -1,0 +1,46 @@
+# [twol] Cases for solidly front-vowel word
+^киси<n><nom>$
+^киси<n><pl><px3sp><nom>$
+^киси<n><gen>$
+^киси<n><dat>$
+# [twol] Cases for solidly back-vowel words
+^халк<n><nom>$
+^халк<n><pl><px3sp><nom>$
+^халк<n><gen>$
+^халк<n><dat>$
+^авыл<n><nom>$
+^авыл<n><pl><px3sp><nom>$
+^авыл<n><gen>$
+^авыл<n><dat>$
+# [twol] Cases for potentially confusing words
+^аьдем<n><nom>$
+^аьдем<n><pl><px3sp><nom>$
+^аьдем<n><gen>$
+^аьдем<n><dat>$
+^уьй<n><nom>$
+^уьй<n><pl><px3sp><nom>$
+^уьй<n><gen>$
+^уьй<n><dat>$
+# [twol] Cases for orthographic exceptions
+^юз<n><nom>$
+^юз<n><pl><px3sp><nom>$
+^юз<n><gen>$
+^юз<n><dat>$
+^китап<n><nom>$
+^китап<n><pl><px3sp><nom>$
+^китап<n><gen>$
+^китап<n><dat>$
+# Russian words ending in ь
+^автомобиль<n><nom>$
+^автомобиль<n><pl><nom>$
+^автомобиль<n><gen>$
+^автомобиль<n><px3sp><acc>$
+^руль<n><nom>$
+^руль<n><pl><nom>$
+^руль<n><gen>$
+^руль<n><px3sp><acc>$
+# [twol] Russian words ending in 'voiced' consonants
+^съезд<n><nom>$
+^съезд<n><pl><px3sp><nom>$
+^съезд<n><gen>$
+^съезд<n><dat>$

@@ -1,0 +1,2 @@
+# [twol] some case forms of <ger1>
+^бол<v><iv><neg><ger_pros><nom>$

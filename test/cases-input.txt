@@ -1,0 +1,46 @@
+# [twol] Cases for solidly front-vowel word
+киси
+кисилери
+кисидинъ
+кисиге
+# [twol] Cases for solidly back-vowel words
+халк
+халклары
+халктынъ
+халкка
+авыл
+авыллары
+авылдынъ
+авылга
+# [twol] Cases for potentially confusing words
+аьдем
+аьдемлери
+аьдемнинъ
+аьдемге
+уьй
+уьйлери
+уьйдинъ
+уьйге
+# [twol] Cases for orthographic exceptions
+юз
+юзлери
+юздинъ
+юзге
+китап
+китаплери
+китаптинъ
+китапке
+# Russian words ending in ь
+автомобиль
+автомобильдер
+автомобильдинъ
+автомобилин
+руль
+рульдер
+рульдинъ
+рулин
+# [twol] Russian words ending in 'voiced' consonants
+съезд
+съездлери
+съездтинъ
+съездке

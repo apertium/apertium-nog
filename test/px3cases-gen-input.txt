@@ -1,0 +1,18 @@
+# [twol] px3.nom
+^ис<n><px3sp><nom>$
+^район<n><px3sp><nom>$
+# [twol] px3.acc
+^ис<n><px3sp><acc>$
+^район<n><px3sp><acc>$
+# [twol] px3.gen
+^ис<n><px3sp><gen>$
+^район<n><px3sp><gen>$
+# [twol] px3.dat
+^ис<n><px3sp><dat>$
+^район<n><px3sp><dat>$
+# [twol] px3.loc
+^ис<n><px3sp><loc>$
+^район<n><px3sp><loc>$
+# [twol] px3.abl
+^ис<n><px3sp><abl>$
+^район<n><px3sp><abl>$

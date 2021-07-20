@@ -1,0 +1,17 @@
+# [twol] nom
+^куллык<n><nom>$
+^куллык<n><pl><nom>$
+^уьстинлик<n><nom>$
+^уьстинлик<n><pl><nom>$
+# [twol] dat
+^уьстинлик<n><dat>$
+^куллык<n><dat>$
+# [twol] acc
+^куллык<n><acc>$
+# [twol] abl
+^куллык<n><abl>$
+# [twol] px3sp
+^куллык<n><px3sp><nom>$
+# [twol] poss
+^уьстинлик<n><px1pl><nom>$
+^куллык<n><px1pl><nom>$

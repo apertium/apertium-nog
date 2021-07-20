@@ -1,0 +1,14 @@
+[NXZ3Rt1C5ddR#0] ^турмага/тур<v><iv><ger1><dat>$
+[/NXZ3Rt1C5ddR]
+[YZQHcl-GQngB#0] ^шоршымага/шоршы<v><iv><ger1><dat>$
+[/YZQHcl-GQngB]
+[hjQ-7D34czT3#0] ^болмага/бол<v><iv><ger1><dat>$
+[/hjQ-7D34czT3]
+[kviNpPkWMxi1#0] ^кулланмага/куллан<v><tv><ger1><dat>$
+[/kviNpPkWMxi1]
+[li4iXvT9ifxF#0] ^туьрленмеге/туьрлен<v><iv><ger1><dat>$
+[/li4iXvT9ifxF]
+[qdpiDRL7tYLp#0] ^сезбеге/сез<v><tv><ger1><dat>$
+[/qdpiDRL7tYLp]
+[yeACAAAZB0PM#0] ^кеспеге/кес<v><tv><ger1><dat>$
+[/yeACAAAZB0PM]

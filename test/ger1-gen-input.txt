@@ -1,0 +1,10 @@
+# [twol] some case forms of <ger1> with м
+^шоршы<v><iv><ger1><dat>$
+^туьрлен<v><iv><ger1><dat>$
+^куллан<v><tv><ger1><dat>$
+^тур<v><iv><ger1><dat>$
+^бол<v><iv><ger1><dat>$
+# [twol] some case forms of <ger1> with б
+^сез<v><tv><ger1><dat>$
+# [twol] some case forms of <ger1> with п
+^кес<v><tv><ger1><dat>$

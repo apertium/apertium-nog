@@ -1,0 +1,8 @@
+[4anIZ9cb1lo8#0] ^табаман/таб<v><tv><aor><p1><sg>/тап<v><tv><aor><p1><sg>$
+[/4anIZ9cb1lo8]
+[8YmrgWDPuF-8#0] ^тавып/тап<v><tv><prc_perf>/тап<v><tv><gna_perf>$
+[/8YmrgWDPuF-8]
+[szj5CSzL0hjw#0] ^шыгаман/шыг<v><iv><aor><p1><sg>/шык<v><iv><aor><p1><sg>$
+[/szj5CSzL0hjw]
+[xpvv8fdCEUCM#0] ^шыгып/шыг<v><iv><prc_perf>/шыг<v><iv><gna_perf>/шык<v><iv><prc_perf>/шык<v><iv><gna_perf>$
+[/xpvv8fdCEUCM]

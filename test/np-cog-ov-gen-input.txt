@@ -1,0 +1,4 @@
+# [twol] np-cog with front vowels
+^Медведев<np><cog><m><gen>$
+# [twol] np-cog with back vowels
+^Магомедов<np><cog><m><gen>$

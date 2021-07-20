@@ -1,0 +1,22 @@
+[1V2mRGW0da1i#0] ^куллыгымыз/куллык<n><px1pl><nom>$
+[/1V2mRGW0da1i]
+[7bhR_N3XwH9x#0] ^уьстинлигимиз/уьстинлик<n><px1pl><nom>$
+[/7bhR_N3XwH9x]
+[EXVLQWHBkBTi#0] ^куллыкты/куллык<n><acc>$
+[/EXVLQWHBkBTi]
+[LVGpRdYj6awk#0] ^уьстинликке/уьстинлик<n><dat>$
+[/LVGpRdYj6awk]
+[c3D1GXNo04LC#0] ^куллыгы/куллык<n><px3sp><nom>$
+[/c3D1GXNo04LC]
+[ctIS10CESL3l#0] ^куллыклар/куллык<n><pl><nom>$
+[/ctIS10CESL3l]
+[ht0-abnsg_ah#0] ^куллык/куллык<n><nom>/куллык<n><attr>$
+[/ht0-abnsg_ah]
+[nvySMz3B9mRy#0] ^уьстинлик/уьстинлик<n><nom>/уьстинлик<n><attr>$
+[/nvySMz3B9mRy]
+[o21rV9j5WA6y#0] ^уьстинликлер/уьстинлик<n><pl><nom>$
+[/o21rV9j5WA6y]
+[yL52CQUWTq4y#0] ^куллыктан/куллык<n><abl>$
+[/yL52CQUWTq4y]
+[zvsyxsXfrku2#0] ^куллыкка/куллык<n><dat>$
+[/zvsyxsXfrku2]

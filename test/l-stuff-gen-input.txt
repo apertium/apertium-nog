@@ -1,0 +1,7 @@
+# [twol] оьз
+^оьз<prn><ref><px1sg><nom>$
+^оьз<prn><ref><px3pl><nom>$
+^оьз<prn><ref><px3pl><gen>$
+# [twol] ifi
+^ал<v><tv><ifi><p1><sg>$
+^ал<v><tv><ifi><p3><pl>$

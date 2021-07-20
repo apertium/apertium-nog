@@ -1,0 +1,34 @@
+# [twol] stems ending in к, contexts where voicing doesn't occur
+^суьек<n><nom>$
+^терек<n><nom>$
+^суьек<n><acc>$
+^терек<n><acc>$
+^суьек<n><abl>$
+^терек<n><abl>$
+# [twol] stems ending in к, contexts where voicing does occur
+^суьек<n><px3sp><nom>$
+^терек<n><px3sp><nom>$
+^суьек<n><px1sg><nom>$
+^терек<n><px1sg><nom>$
+# [twol] stems ending in п, contexts where voicing doesn't occur
+^китап<n><nom>$
+^эсап<n><nom>$
+^китап<n><acc>$
+^эсап<n><acc>$
+^китап<n><abl>$
+^эсап<n><abl>$
+# [twol] stems ending in п, contexts where voicing does occur
+^китап<n><px3sp><nom>$
+^эсап<n><px3sp><nom>$
+^китап<n><px1sg><acc>$
+^эсап<n><px1sg><acc>$
+# [twol] stems ending in Cк, no voicing ever
+^халк<n><nom>$
+^халк<n><acc>$
+^халк<n><px3sp><nom>$
+^халк<n><px1pl><nom>$
+# [twol] irregular stem ending in к, no voicing ever
+^ак<n><nom>$
+^ак<n><acc>$
+^ак<n><px3sp><nom>$
+^ак<n><px1pl><nom>$

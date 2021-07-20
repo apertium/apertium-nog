@@ -1,0 +1,7 @@
+# [twol] forms where й just deletes
+^суьй<v><tv><aor><p1><sg>$
+# [twol] forms where й deletes and triggers я
+^кой<v><tv><aor><p1><sg>$
+# [twol] forms where й doesn't delete
+^суьй<v><tv><ifi><p1><sg>$
+^кой<v><tv><ifi><p1><sg>$

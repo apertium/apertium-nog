@@ -1,0 +1,56 @@
+[2Ytj2LoT9EO8#0] ^халкты/халк<n><acc>$
+[/2Ytj2LoT9EO8]
+[3fUPWKQhTMpp#0] ^суьеги/суьек<n><px3sp><nom>$
+[/3fUPWKQhTMpp]
+[3o6PhHSYOvMo#0] ^эсаптан/эсап<n><abl>$
+[/3o6PhHSYOvMo]
+[4fBsq1abjFsU#0] ^суьек/суьек<n><nom>/суьек<n><attr>$
+[/4fBsq1abjFsU]
+[5z1eQR8JBnaM#0] ^акымыз/ак<n><px1pl><nom>/акы<n><px1pl><nom>$
+[/5z1eQR8JBnaM]
+[6woCCBEHqHPU#0] ^эсабымды/эсап<n><px1sg><acc>$
+[/6woCCBEHqHPU]
+[7634ewS1Y21i#0] ^китабимди/китап<n><px1sg><acc>$
+[/7634ewS1Y21i]
+[9vcMcA6CiqQP#0] ^эсапты/эсап<n><acc>$
+[/9vcMcA6CiqQP]
+[BEHwS8obpp-K#0] ^эсап/эсап<n><nom>/эсап<n><attr>$
+[/BEHwS8obpp-K]
+[DB1Qvyxu2abL#0] ^терегим/терек<n><px1sg><nom>$
+[/DB1Qvyxu2abL]
+[DuqsbG7Jk1ho#0] ^китаптен/китап<n><abl>$
+[/DuqsbG7Jk1ho]
+[G5GATRad-OOc#0] ^теректи/терек<n><acc>$
+[/G5GATRad-OOc]
+[ICxAshVZEqZO#0] ^халк/халк<n><nom>/халк<n><attr>$
+[/ICxAshVZEqZO]
+[IZ0HAUTft261#0] ^китап/китап<n><nom>/китап<n><attr>$
+[/IZ0HAUTft261]
+[JSAZqGGh_Xty#0] ^акы/акы<n><nom>/акы<n><attr>/ак<n><px3sp><nom>$
+[/JSAZqGGh_Xty]
+[LL-e4Zq4MFSk#0] ^суьектен/суьек<n><abl>$
+[/LL-e4Zq4MFSk]
+[Lyti3lqAOEmq#0] ^ак/ак<adj>/ак<n><nom>/ак<n><attr>/ак<adj><subst><nom>$
+[/Lyti3lqAOEmq]
+[NQIc-kQe8MU_#0] ^суьегим/суье<v><tv><prc_vol><p1><sg>/суьек<n><px1sg><nom>$
+[/NQIc-kQe8MU_]
+[SbthMxx3bAxT#0] ^китаби/китап<n><px3sp><nom>$
+[/SbthMxx3bAxT]
+[TytHT7pxNn1h#0] ^теректен/терек<n><abl>$
+[/TytHT7pxNn1h]
+[_8lqG-Z627NN#0] ^халкы/халк<n><px3sp><nom>$
+[/_8lqG-Z627NN]
+[ftPKj-qL8kh4#0] ^терек/терек<n><nom>/терек<n><attr>$
+[/ftPKj-qL8kh4]
+[huWzfFgciRfv#0] ^тереги/терек<n><px3sp><nom>$
+[/huWzfFgciRfv]
+[ky-j6E8fw-F9#0] ^суьекти/суьек<n><acc>$
+[/ky-j6E8fw-F9]
+[nFMxwxqZCo6i#0] ^акты/ак<n><acc>/ак<adj><subst><acc>$
+[/nFMxwxqZCo6i]
+[vitq1MJ-OSOa#0] ^китапти/китап<n><acc>$
+[/vitq1MJ-OSOa]
+[xNtduCjcRn-e#0] ^халкымыз/халк<n><px1pl><nom>$
+[/xNtduCjcRn-e]
+[xz3JUuEZ-8mk#0] ^эсабы/эсап<n><px3sp><nom>$
+[/xz3JUuEZ-8mk]

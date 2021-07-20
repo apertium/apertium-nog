@@ -1,0 +1,10 @@
+# [twol] verb stems with front vowels
+туьзуьв
+буьгуьв
+# [twol] verb stems with back vowels
+болув
+окув
+атав
+яшав
+# [twol] some case forms of <ger>
+яшавга

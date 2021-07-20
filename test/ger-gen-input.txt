@@ -1,0 +1,10 @@
+# [twol] verb stems with front vowels
+^туьз<v><tv><ger><nom>$
+^буьги<v><tv><ger><nom>$
+# [twol] verb stems with back vowels
+^бол<v><iv><ger><nom>$
+^окы<v><tv><ger><nom>$
+^ата<v><tv><ger><nom>$
+^яша<v><iv><ger><nom>$
+# [twol] some case forms of <ger>
+^яша<v><iv><ger><dat>$

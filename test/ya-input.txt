@@ -1,0 +1,8 @@
+# [twol] verb stems with front vowels
+келеек
+# [twol] verb stems with back vowels
+болаяк
+# [twol] verb stems with front vowels and й
+сиеек
+# [twol] verb stems with back vowels and й
+кояяк

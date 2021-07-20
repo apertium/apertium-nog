@@ -1,0 +1,7 @@
+# [twol] voicing of stem-final п
+табаман
+# [twol] voicing and further lenition of stem-final п
+тавып
+# [twol] voicing of stem-final к
+шыгаман
+шыгып

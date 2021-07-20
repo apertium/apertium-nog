@@ -1,0 +1,34 @@
+# [twol] stems ending in к, contexts where voicing doesn't occur
+суьек
+терек
+суьекти
+теректи
+суьектен
+теректен
+# [twol] stems ending in к, contexts where voicing does occur
+суьеги
+тереги
+суьегим
+терегим
+# [twol] stems ending in п, contexts where voicing doesn't occur
+китап
+эсап
+китапти
+эсапты
+китаптен
+эсаптан
+# [twol] stems ending in п, contexts where voicing does occur
+китаби
+эсабы
+китабимди
+эсабымды
+# [twol] stems ending in Cк, no voicing ever
+халк
+халкты
+халкы
+халкымыз
+# [twol] irregular stem ending in к, no voicing ever
+ак
+акты
+акы
+акымыз
